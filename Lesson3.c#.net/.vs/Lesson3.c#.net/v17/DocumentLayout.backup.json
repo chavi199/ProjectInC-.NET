@@ -1,0 +1,195 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|c:\\users\\user1\\desktop\\studies\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\myhomrwork\\lesson3\\lesson3.c#.net\\lesson3.c#.net\\studentadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|solutionrelative:lesson3.c#.net\\studentadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|c:\\users\\user1\\desktop\\studies\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\myhomrwork\\lesson3\\lesson3.c#.net\\lesson3.c#.net\\studentadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|solutionrelative:lesson3.c#.net\\studentadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|c:\\users\\user1\\desktop\\studies\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\myhomrwork\\lesson3\\lesson3.c#.net\\lesson3.c#.net\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|solutionrelative:lesson3.c#.net\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|c:\\users\\user1\\desktop\\studies\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\myhomrwork\\lesson3\\lesson3.c#.net\\lesson3.c#.net\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|solutionrelative:lesson3.c#.net\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|c:\\users\\user1\\desktop\\studies\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\myhomrwork\\lesson3\\lesson3.c#.net\\lesson3.c#.net\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|solutionrelative:lesson3.c#.net\\screen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|c:\\users\\user1\\desktop\\studies\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\myhomrwork\\lesson3\\lesson3.c#.net\\lesson3.c#.net\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|solutionrelative:lesson3.c#.net\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|c:\\users\\user1\\desktop\\studies\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\myhomrwork\\lesson3\\lesson3.c#.net\\lesson3.c#.net\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|solutionrelative:lesson3.c#.net\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|c:\\users\\user1\\desktop\\studies\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\myhomrwork\\lesson3\\lesson3.c#.net\\lesson3.c#.net\\screen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|solutionrelative:lesson3.c#.net\\screen.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|c:\\users\\user1\\desktop\\studies\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\myhomrwork\\lesson3\\lesson3.c#.net\\lesson3.c#.net\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|solutionrelative:lesson3.c#.net\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|c:\\users\\user1\\desktop\\studies\\c# \u05DE\u05EA\u05E7\u05D3\u05DD\\myhomrwork\\lesson3\\lesson3.c#.net\\lesson3.c#.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52ECA9E5-6D26-45F9-A9D8-49D795D5CB87}|Lesson3.c#.net\\Lesson3.c#.net.csproj|solutionrelative:lesson3.c#.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\Student.cs",
+              "RelativeDocumentMoniker": "Lesson3.c#.net\\Student.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\Student.cs",
+              "RelativeToolTip": "Lesson3.c#.net\\Student.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwCMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T17:59:36.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Screen.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\Screen.Designer.cs",
+              "RelativeDocumentMoniker": "Lesson3.c#.net\\Screen.Designer.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\Screen.Designer.cs",
+              "RelativeToolTip": "Lesson3.c#.net\\Screen.Designer.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T20:32:56.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Screen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\Screen.cs",
+              "RelativeDocumentMoniker": "Lesson3.c#.net\\Screen.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\Screen.cs [Design]",
+              "RelativeToolTip": "Lesson3.c#.net\\Screen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T19:53:19.957Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentAdd.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\StudentAdd.cs",
+              "RelativeDocumentMoniker": "Lesson3.c#.net\\StudentAdd.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\StudentAdd.cs [Design]*",
+              "RelativeToolTip": "Lesson3.c#.net\\StudentAdd.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T18:36:31.21Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentAdd.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\StudentAdd.cs",
+              "RelativeDocumentMoniker": "Lesson3.c#.net\\StudentAdd.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\StudentAdd.cs*",
+              "RelativeToolTip": "Lesson3.c#.net\\StudentAdd.cs*",
+              "ViewState": "AgIAADUAAAAAAAAAAAAMwDwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T18:42:38.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\Form1.cs",
+              "RelativeDocumentMoniker": "Lesson3.c#.net\\Form1.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\Form1.cs [Design]",
+              "RelativeToolTip": "Lesson3.c#.net\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T17:37:26.505Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\Form1.cs",
+              "RelativeDocumentMoniker": "Lesson3.c#.net\\Form1.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\Form1.cs",
+              "RelativeToolTip": "Lesson3.c#.net\\Form1.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAD4vxkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T17:37:41.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Screen.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\Screen.cs",
+              "RelativeDocumentMoniker": "Lesson3.c#.net\\Screen.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\Screen.cs",
+              "RelativeToolTip": "Lesson3.c#.net\\Screen.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIAwwA4AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T20:33:26.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Lesson3.c#.net\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\Form1.Designer.cs",
+              "RelativeToolTip": "Lesson3.c#.net\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T19:14:17.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\Program.cs",
+              "RelativeDocumentMoniker": "Lesson3.c#.net\\Program.cs",
+              "ToolTip": "C:\\Users\\user1\\Desktop\\STUDIES\\C# \u05DE\u05EA\u05E7\u05D3\u05DD\\myHomrwork\\Lesson3\\Lesson3.c#.net\\Lesson3.c#.net\\Program.cs",
+              "RelativeToolTip": "Lesson3.c#.net\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T18:26:57.113Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
