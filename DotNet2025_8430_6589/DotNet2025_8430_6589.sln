@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35219.272
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalTest", "DalTest\DalTest.csproj", "{61F8C8E6-5197-4C33-9C47-40D4623810C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalFacade", "DalFacade\DalFacade.csproj", "{69526259-CD63-4F75-9DF2-773CB2C0E9A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DalList", "DalList\DalList.csproj", "{CE12045E-EC83-4EC0-950F-913EE3BB4A06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61F8C8E6-5197-4C33-9C47-40D4623810C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61F8C8E6-5197-4C33-9C47-40D4623810C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61F8C8E6-5197-4C33-9C47-40D4623810C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61F8C8E6-5197-4C33-9C47-40D4623810C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69526259-CD63-4F75-9DF2-773CB2C0E9A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69526259-CD63-4F75-9DF2-773CB2C0E9A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69526259-CD63-4F75-9DF2-773CB2C0E9A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69526259-CD63-4F75-9DF2-773CB2C0E9A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE12045E-EC83-4EC0-950F-913EE3BB4A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE12045E-EC83-4EC0-950F-913EE3BB4A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE12045E-EC83-4EC0-950F-913EE3BB4A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE12045E-EC83-4EC0-950F-913EE3BB4A06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BC094DE-0B28-44FD-B4B2-96F4C556EC28}
+	EndGlobalSection
+EndGlobal
