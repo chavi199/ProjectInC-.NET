@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "M:\\DotNet2025_8430_6589\\DalFacade\\DalFacade.csproj": {}
+    "T:\\יד\\בינה\\DotNet2025_8430_6589\\DalFacade\\DalFacade.csproj": {}
   },
   "projects": {
-    "M:\\DotNet2025_8430_6589\\DalFacade\\DalFacade.csproj": {
+    "T:\\יד\\בינה\\DotNet2025_8430_6589\\DalFacade\\DalFacade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\DotNet2025_8430_6589\\DalFacade\\DalFacade.csproj",
+        "projectUniqueName": "T:\\יד\\בינה\\DotNet2025_8430_6589\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
-        "projectPath": "M:\\DotNet2025_8430_6589\\DalFacade\\DalFacade.csproj",
+        "projectPath": "T:\\יד\\בינה\\DotNet2025_8430_6589\\DalFacade\\DalFacade.csproj",
         "packagesPath": "C:\\Users\\SHIRASIROKA\\.nuget\\packages\\",
-        "outputPath": "M:\\DotNet2025_8430_6589\\DalFacade\\obj\\",
+        "outputPath": "T:\\יד\\בינה\\DotNet2025_8430_6589\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

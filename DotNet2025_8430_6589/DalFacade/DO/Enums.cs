@@ -3,4 +3,4 @@ namespace DO;
 //internal class Enums
 //{
 //}
-enum Category { necklace, bracelet , ring , earrings, watch }
+enum Category { necklace, bracelet , ring , earrings, watch };

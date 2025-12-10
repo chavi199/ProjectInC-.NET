@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DO
 {
-    internal record Sale(
+    public record Sale(
         int Id,
         int ProductId, 
         int RequiredQuantity,
