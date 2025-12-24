@@ -10,6 +10,7 @@ public interface IProduct
     Product? Read(int id);
     List<Product> ReadAll();
     void Update(Product item);
+    void Delete(int id);
 
 
 }
