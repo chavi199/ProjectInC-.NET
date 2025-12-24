@@ -9,7 +9,7 @@ namespace DO
     public record Product(
        int Id,
        string Name,
-       Enum  category ,
+       Category  category ,
        double Price,
        int Amount
         )
