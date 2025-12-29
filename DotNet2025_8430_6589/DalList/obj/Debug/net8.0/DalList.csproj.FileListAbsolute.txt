@@ -1,0 +1,16 @@
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\bin\Debug\net8.0\DalList.deps.json
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\bin\Debug\net8.0\DalList.dll
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\bin\Debug\net8.0\DalList.pdb
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\bin\Debug\net8.0\DalFacade.dll
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\bin\Debug\net8.0\DalFacade.pdb
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.csproj.AssemblyReference.cache
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.AssemblyInfoInputs.cache
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.AssemblyInfo.cs
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.sourcelink.json
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.csproj.Up2Date
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.dll
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\refint\DalList.dll
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.pdb
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\ref\DalList.dll

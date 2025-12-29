@@ -12,3 +12,24 @@ M:\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\refint\DalTest.dll
 M:\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.pdb
 M:\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.genruntimeconfig.cache
 M:\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\ref\DalTest.dll
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.csproj.AssemblyReference.cache
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.AssemblyInfoInputs.cache
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.AssemblyInfo.cs
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.csproj.CoreCompileInputs.cache
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.sourcelink.json
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.dll
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\refint\DalTest.dll
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.pdb
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalTest.exe
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalTest.deps.json
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalTest.runtimeconfig.json
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalTest.dll
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalTest.pdb
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalFacade.dll
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalList.dll
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalFacade.pdb
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalList.pdb
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.csproj.Up2Date
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.genruntimeconfig.cache
+C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\ref\DalTest.dll
