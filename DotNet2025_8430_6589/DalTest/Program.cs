@@ -2,7 +2,9 @@
 using DalApi;
 using DO;
 using System;
+using System.Diagnostics;
 using System.Linq.Expressions;
+using System.Xml.Linq;
 
 namespace DalTest
 {
@@ -31,11 +33,11 @@ namespace DalTest
             int choice = PrintSubMenu("Sale");
             switch (choice)
             {
-                case 0: UpdateSale(); break;
+                case 0: UpdateSale(s); break;
                 case 1: DeleteSales(s); break;
                 case 2: ReadSales(s); break;
                 case 3: ReadAllSales(s); break;
-                case 4: AddSale(); break;
+                case 4: AddSale(s); break;
 
             }
         }
@@ -44,11 +46,11 @@ namespace DalTest
             int choice = PrintSubMenu("Product");
             switch (choice)
             {
-                case 0: UpdateProduct(); break;
+                case 0: UpdateProduct(p); break;
                 case 1: DeleteProducts(p); break;
                 case 2: ReadProducts(p); break;
                 case 3: ReadAllProducts(p); break;
-                case 4: AddClient(); break;
+                case 4: AddProduct(p); break;
 
             }
 
@@ -58,19 +60,18 @@ namespace DalTest
             int choice = PrintSubMenu("Customer");
             switch (choice)
             {
-                case 0: UpdateClient(); break;
+                case 0: UpdateCustomers(c); break;
                 case 1: DeleteCustomers(c); break;
                 case 2: ReadCustomers(c); break;
                 case 3: ReadAllCustomers(c); break;
-                case 4: AddClient(); break;
+                case 4: AddClient(c); break;
 
             }
 
         }
-        private static void ProductMenu()
-        {
-        }
-
+        //private static void ProductMenu()??
+        //{
+        //}
         private static Product AskProduct(int code = 0)
         {
 
@@ -99,47 +100,100 @@ namespace DalTest
 
             return new Product(code, name, category, price, count);
         }
-
         private static Sale AskSale(int code = 0)
         {
-            return null;
-        }
+            int Id;
+            int ProductId;
+            int RequiredQuantity;
+            int PriceAfterDiscount;
+            bool IsForClubMemberOnly;
+            DateTime StartDate;
+            DateTime EndDate;
 
+            Console.WriteLine("Enter the ID of the Sale");
+            Id = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter the ProductId ");
+            int cat;
+            if (!int.TryParse(Console.ReadLine(), out cat))
+                ProductId = 0;
+            else
+                ProductId = cat;
+
+            Console.WriteLine("Enter RequiredQuantity");
+            if (!int.TryParse(Console.ReadLine(), out RequiredQuantity))
+                RequiredQuantity = 10;
+
+            Console.WriteLine("Enter PriceAfterDiscount");
+            if (!int.TryParse(Console.ReadLine(), out PriceAfterDiscount))
+                PriceAfterDiscount = 0;
+
+            Console.WriteLine("Enter IsForClubMemberOnly");
+            if (!bool.TryParse(Console.ReadLine(), out IsForClubMemberOnly))
+                IsForClubMemberOnly = false;
+           
+            Console.WriteLine("Enter StartDate");
+            if (!DateTime.TryParse(Console.ReadLine(), out StartDate))
+                StartDate = DateTime.Now;
+            Console.WriteLine("Enter EndDate");
+            if (!DateTime.TryParse(Console.ReadLine(), out EndDate))
+                EndDate = DateTime.Now;
+            return new Sale(Id,ProductId,RequiredQuantity,PriceAfterDiscount
+                ,IsForClubMemberOnly,StartDate,EndDate);
+        }
         private static Customer AskClient(int identity = 0)
         {
-            return null;
+            int Id;
+            string Name;
+            string Addres;
+            string Phone;
+           
+            Console.WriteLine("Enter the ID of the Sale");
+            Id = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter the Name of the Costumer");
+            Name = Console.ReadLine();
+            
+            Console.WriteLine("Enter the Addres of the Costumer");
+            Addres = Console.ReadLine();
+           
+            Console.WriteLine("Enter the Phone of the Costumer");
+            Phone = Console.ReadLine();
+
+            return new Customer(Id,Name,Addres,Phone);
+
         }
-
-        private static void AddProduct()
+        private static void AddProduct(IProduct p)
         {
-
+            Product pr = AskProduct();
+            p.Create(pr);
         }
-
-        private static void AddSale()
+        private static void AddSale(ISale s)
         {
+            Sale pr = AskSale();
+            s.Create(pr);
         }
-
-        private static void AddClient()
+        private static void AddClient(ICustomer c)
         {
-        }
-
-        private static void UpdateProduct()
-        {
-            Product p=AskProduct();
-
-          
-        }
-
-        private static void UpdateSale()
-        {
-        }
-
-        private static void UpdateClient()
-        {
-            Customer c=AskClient();
+            Customer cu = AskClient();
+            c.Create(cu); 
             
         }
-
+        private static void UpdateProduct(IProduct p)
+        {
+            Product pr=AskProduct();
+            p.Update(pr);
+        }
+        private static void UpdateSale(ISale s)
+        {
+            Sale sa = AskSale();
+            s.Update(sa);        
+        }
+        private static void UpdateCustomers(ICustomer c)
+        {
+            Customer cu=AskClient();
+            c.Update(cu);
+        }
         private static void ReadAllCustomers(List<Customer> Customers)
         {
         }
@@ -163,6 +217,7 @@ namespace DalTest
 
         private static void ReadSales(ISale s)
         {
+
         }
         private static void ReadCustomers(ICustomer c)
         {
@@ -173,17 +228,23 @@ namespace DalTest
 
         private static void DeleteProducts(IProduct p)
         {
+            Console.WriteLine("choose id to delete");
+            int i = int.Parse(Console.ReadLine());
+            p.Delete(i);
+
         }
         private static void DeleteCustomers(ICustomer c)
         {
+            Console.WriteLine("choose id to delete");
+            int i = int.Parse(Console.ReadLine());
+            c.Delete(i);
         }
         private static void DeleteSales(ISale s)
         {
             Console.WriteLine("choose id to delete");
-            int i=
+            int i=int.Parse(Console.ReadLine());
+            s.Delete(i);
         }
-
-
         public static void PrintMainMenu()
         {
             Console.WriteLine("menu");
