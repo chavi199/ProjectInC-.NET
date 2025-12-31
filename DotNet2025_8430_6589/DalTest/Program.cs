@@ -10,6 +10,7 @@ namespace DalTest
 {
     internal class Program
     {
+
         private static IProduct? p_dalProduct = new ProductImplementation();
         //private static ICustomer? c_dalCustomer;
         //private static ISale? s_dalSale;

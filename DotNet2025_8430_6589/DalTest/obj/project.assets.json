@@ -46,23 +46,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user1\\.nuget\\packages\\": {},
+    "C:\\Users\\chavikoninsky\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user1\\Desktop\\STUDIES\\C# מתקדם\\פרויקט סופי בינתיים\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalTest\\DalTest.csproj",
+      "projectUniqueName": "T:\\יד\\בינה\\chavi&shira-proj\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalTest\\DalTest.csproj",
       "projectName": "DalTest",
-      "projectPath": "C:\\Users\\user1\\Desktop\\STUDIES\\C# מתקדם\\פרויקט סופי בינתיים\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalTest\\DalTest.csproj",
-      "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user1\\Desktop\\STUDIES\\C# מתקדם\\פרויקט סופי בינתיים\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalTest\\obj\\",
+      "projectPath": "T:\\יד\\בינה\\chavi&shira-proj\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalTest\\DalTest.csproj",
+      "packagesPath": "C:\\Users\\chavikoninsky\\.nuget\\packages\\",
+      "outputPath": "T:\\יד\\בינה\\chavi&shira-proj\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalTest\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\chavikoninsky\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -71,17 +71,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\user1\\Desktop\\STUDIES\\C# מתקדם\\פרויקט סופי בינתיים\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalFacade\\DalFacade.csproj": {
-              "projectPath": "C:\\Users\\user1\\Desktop\\STUDIES\\C# מתקדם\\פרויקט סופי בינתיים\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalFacade\\DalFacade.csproj"
+            "T:\\יד\\בינה\\chavi&shira-proj\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalFacade\\DalFacade.csproj": {
+              "projectPath": "T:\\יד\\בינה\\chavi&shira-proj\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalFacade\\DalFacade.csproj"
             },
-            "C:\\Users\\user1\\Desktop\\STUDIES\\C# מתקדם\\פרויקט סופי בינתיים\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalList\\DalList.csproj": {
-              "projectPath": "C:\\Users\\user1\\Desktop\\STUDIES\\C# מתקדם\\פרויקט סופי בינתיים\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalList\\DalList.csproj"
+            "T:\\יד\\בינה\\chavi&shira-proj\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalList\\DalList.csproj": {
+              "projectPath": "T:\\יד\\בינה\\chavi&shira-proj\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalList\\DalList.csproj"
             }
           }
         }
@@ -95,8 +96,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -117,7 +117,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

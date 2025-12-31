@@ -16,8 +16,7 @@ namespace DO
         DateTime EndDate
         )
     {
-        static private int _id=0;
-        public Sale():this(_id++,0,1,0,true,DateTime.Now, DateTime.Now)
+        public Sale():this(0,0,1,0,true,DateTime.Now, DateTime.Now)//TODO
         {
             
         }

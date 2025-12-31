@@ -13,7 +13,7 @@ public class CustomerImplementation : ICustomer
     {
         if (!DataSource.Customers.Exists((p) => p.Id == item.Id))
         {
-            DataSource.Customers.Add(DataSource.Customers.Find((p) => p.Id == item.Id));
+            DataSource.Customers.Add(item);//TODO
             return item.Id;
         }
         throw new DalIdAlreadyExsist("customers is already");
@@ -42,7 +42,7 @@ public class CustomerImplementation : ICustomer
 
     public void Update(Customer item)
     {
-        if (DataSource.Customers.Exists((p) => p.Id == item.Id))
+        if (DataSource.Customers.Exists((p) => p.Id == item.Id))//TODO
         {
             Delete(item.Id);
             DataSource.Customers.Add(item);
