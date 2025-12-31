@@ -42,7 +42,7 @@ public class CustomerImplementation : ICustomer
 
     public void Update(Customer item)
     {
-        if (DataSource.Customers.Exists((p) => p.Id == item.Id))//TODO
+        if (DataSource.Customers.Exists((p) => p.Id == item.Id))//TODO//לא צריך לחפש כי הDELETE כבר עושה...
         {
             Delete(item.Id);
             DataSource.Customers.Add(item);

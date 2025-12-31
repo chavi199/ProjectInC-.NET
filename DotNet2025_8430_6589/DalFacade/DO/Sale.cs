@@ -17,6 +17,7 @@ namespace DO
         )
     {
         public Sale():this(0,0,1,0,true,DateTime.Now, DateTime.Now)//TODO
+            //משו עם המזהה הרץ
         {
             
         }
