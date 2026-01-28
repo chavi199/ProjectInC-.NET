@@ -13,7 +13,6 @@ public class SaleImplementation : ISale
         DataSource.Sales.Add(sale);
         return myId;
 
-       
     }
 
     public void Delete(int id)

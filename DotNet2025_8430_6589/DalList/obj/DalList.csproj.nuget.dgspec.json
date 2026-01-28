@@ -10,14 +10,14 @@
         "projectUniqueName": "T:\\יד\\בינה\\chavi&shira-proj\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalFacade\\DalFacade.csproj",
         "projectName": "DalFacade",
         "projectPath": "T:\\יד\\בינה\\chavi&shira-proj\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalFacade\\DalFacade.csproj",
-        "packagesPath": "C:\\Users\\chavikoninsky\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\SHIRASIROKA\\.nuget\\packages\\",
         "outputPath": "T:\\יד\\בינה\\chavi&shira-proj\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalFacade\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\chavikoninsky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SHIRASIROKA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -75,14 +75,14 @@
         "projectUniqueName": "T:\\יד\\בינה\\chavi&shira-proj\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalList\\DalList.csproj",
         "projectName": "DalList",
         "projectPath": "T:\\יד\\בינה\\chavi&shira-proj\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalList\\DalList.csproj",
-        "packagesPath": "C:\\Users\\chavikoninsky\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\SHIRASIROKA\\.nuget\\packages\\",
         "outputPath": "T:\\יד\\בינה\\chavi&shira-proj\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\chavikoninsky\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\SHIRASIROKA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

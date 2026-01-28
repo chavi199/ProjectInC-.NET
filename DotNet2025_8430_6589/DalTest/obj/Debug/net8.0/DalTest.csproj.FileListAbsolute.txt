@@ -33,3 +33,24 @@ C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8
 C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.csproj.Up2Date
 C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.genruntimeconfig.cache
 C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\ref\DalTest.dll
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalTest.exe
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalTest.deps.json
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalTest.runtimeconfig.json
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalTest.dll
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalTest.pdb
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalFacade.dll
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalList.dll
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalFacade.pdb
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalList.pdb
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.csproj.AssemblyReference.cache
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.AssemblyInfoInputs.cache
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.AssemblyInfo.cs
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.csproj.CoreCompileInputs.cache
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.sourcelink.json
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.csproj.Up2Date
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.dll
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\refint\DalTest.dll
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.pdb
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.genruntimeconfig.cache
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\ref\DalTest.dll

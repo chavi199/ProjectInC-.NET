@@ -10,7 +10,7 @@ public static class Initialization
     //private static ISale? s_dalSale;
     //private static ICustomer? c_dalCustomer = new CustomerImplementation(new Customer());
     //private static ISale? s_dalSale = new SaleImplementation(new Sale());
-    private static IDal? s_dal;
+    private static IDal? s_dal=new Dal.DalList();
 
     public static void CreateCustomers()
     {
@@ -55,12 +55,8 @@ public static class Initialization
     //    CreateProducts();
     //    CreateSales();
     //}
-    public static void Initialize(IDal? s_dal)
+    public static void Initialize()
     {
-        p_dalProduct = p;
-        c_dalCustomer = c;
-        s_dalSale = s;
-
         CreateCustomers();
         CreateProducts();
         CreateSales();

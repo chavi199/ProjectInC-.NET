@@ -14,3 +14,19 @@ C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8
 C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\refint\DalList.dll
 C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.pdb
 C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\ref\DalList.dll
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalList\bin\Debug\net8.0\DalList.deps.json
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalList\bin\Debug\net8.0\DalList.dll
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalList\bin\Debug\net8.0\DalList.pdb
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalList\bin\Debug\net8.0\DalFacade.dll
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalList\bin\Debug\net8.0\DalFacade.pdb
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.csproj.AssemblyReference.cache
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.GeneratedMSBuildEditorConfig.editorconfig
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.AssemblyInfoInputs.cache
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.AssemblyInfo.cs
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.csproj.CoreCompileInputs.cache
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.sourcelink.json
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.csproj.Up2Date
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.dll
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\refint\DalList.dll
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.pdb
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\ref\DalList.dll

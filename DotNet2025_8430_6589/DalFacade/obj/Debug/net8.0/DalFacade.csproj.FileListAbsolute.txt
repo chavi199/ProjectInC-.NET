@@ -10,3 +10,15 @@ C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8
 C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\refint\DalFacade.dll
 C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\DalFacade.pdb
 C:\Users\1\Documents\י'ד\C#\פרויקט סופי\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\ref\DalFacade.dll
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\bin\Debug\net8.0\DalFacade.deps.json
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\bin\Debug\net8.0\DalFacade.dll
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\bin\Debug\net8.0\DalFacade.pdb
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\DalFacade.AssemblyInfoInputs.cache
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\DalFacade.AssemblyInfo.cs
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\DalFacade.csproj.CoreCompileInputs.cache
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\DalFacade.sourcelink.json
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\DalFacade.dll
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\refint\DalFacade.dll
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\DalFacade.pdb
+T:\יד\בינה\chavi&shira-proj\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\ref\DalFacade.dll
