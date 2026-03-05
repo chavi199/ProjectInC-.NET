@@ -2,10 +2,11 @@
 using DO;
 using DalApi;
 using static Dal.DalExceptions;
+
 namespace Dal;
 
 public class SaleImplementation : ISale
-{
+{//לשנות את הפונקציות פה כמו CustomerImplementation
     public int Create(Sale item)
     {
         int myId = DataSource.config.NextIndexSale;
@@ -31,11 +32,21 @@ public class SaleImplementation : ISale
        
     }
 
+    public Sale? Read(Func<Sale, bool>? filter)///אם הפונקציה בcustomerImplemention טובה אז להעתיק לפה
+    {
+        throw new NotImplementedException();
+    }
+
     public List<Sale> ReadAll()
     {
         List<Sale> newSales = new List<Sale>(DataSource.Sales);
         return newSales;
 
+    }
+
+    public List<Sale?> ReadAll(Func<Sale, bool>? filter = null)
+    {
+        throw new NotImplementedException();
     }
 
     public void Update(Sale item)

@@ -9,7 +9,7 @@ namespace DO
     public record Customer(
         int Id,
         string Name,
-        string Addres,
+        string Address,
         string Phone)
     {
         public Customer():this(1,"dan","bb","098765432")

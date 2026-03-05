@@ -1,12 +1,14 @@
 ﻿
 using DO;
 using DalApi;
-using static Dal.DalExceptions;
+using static Dal.Exceptions;
 
 namespace Dal;
 
 public class ProductImplementation : IProduct
 {
+    //לשנות את הפונקציות פה כמו CustomerImplementation
+
     public int Create(Product item)
     {
         int myId = DataSource.config.NextIndexProduct;
@@ -20,14 +22,19 @@ public class ProductImplementation : IProduct
     {
         if (DataSource.Products.Exists((p) => p.Id == id))
             DataSource.Products.Remove(DataSource.Products.Find((p) => p.Id == id));
-        throw new DalIdNotExsist("product id is not exsist");
+        throw new DalIdNotExist("product id is not exist");
     }
 
     public Product? Read(int id)
     {
         if(DataSource.Products.Exists((p)=>p.Id == id))
             return DataSource.Products.Find((p)=>p.Id == id);
-        throw new DalIdNotExsist("product is not exsist");
+        throw new DalIdNotExsit("product is not exist");
+    }
+
+    public Product? Read(Func<Product, bool>? filter)///אם הפונקציה בcustomerImplemention טובה אז להעתיק לפה
+    {
+        throw new NotImplementedException();
     }
 
     public List<Product> ReadAll()
@@ -35,6 +42,11 @@ public class ProductImplementation : IProduct
         List<Product> newProducts = new List<Product>(DataSource.Products);
         return newProducts;
 
+    }
+
+    public List<Product?> ReadAll(Func<Product, bool>? filter = null)
+    {
+        throw new NotImplementedException();
     }
 
     public void Update(Product item)

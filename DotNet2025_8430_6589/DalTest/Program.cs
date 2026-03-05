@@ -23,7 +23,7 @@ internal class Program
         }
         catch (Exception ex)
         {
-            Console.WriteLine("worng" + ex.Message);
+            Console.WriteLine("wrong" + ex.Message);
         }
         PrintMainMenu();
     }
