@@ -2,7 +2,7 @@
 using DO;
 using DalApi;
 using System.Security.AccessControl;
-//using static DO.
+//using  DO
 
 namespace Dal;
 
@@ -23,7 +23,7 @@ public class CustomerImplementation : ICustomer
     {
         if (!DataSource.Customers.Any((p) => p.Id == item.Id))
         {
-            DataSource.Customers.Add(item);//TODO
+            DataSource.Customers.Add(item);
             return item.Id;
         }
         throw new DalIdAlreadyExist("customers is already");
@@ -41,7 +41,7 @@ public class CustomerImplementation : ICustomer
         if (c != null)
             DataSource.Customers.Remove(c);
         else
-            throw new DalIdNotExsist("customers is not exists");
+            throw new DalIdNotExist("customers is not exists");
 
     }
     public Customer? Read(int id)
@@ -49,7 +49,7 @@ public class CustomerImplementation : ICustomer
         var g = DataSource.Customers.FirstOrDefault((p) => p.Id == id);
         if (g != null)
             return g;
-        throw new DalIdNotExsist("customers is not exists");
+        throw new DalIdNotExist("customers is not exists");
     }
 
     public List<Customer?> ReadAll(Func<Customer, bool>? filter = null)

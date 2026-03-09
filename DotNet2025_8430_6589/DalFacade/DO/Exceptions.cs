@@ -2,8 +2,7 @@
 
 namespace DO;
 
-internal class Exceptions : Exception
-{
+
     [Serializable]
     public class DalIdNotExist : Exception
     {
@@ -23,4 +22,3 @@ internal class Exceptions : Exception
     }
 
 
-}

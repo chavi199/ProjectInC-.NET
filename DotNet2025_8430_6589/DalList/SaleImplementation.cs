@@ -1,8 +1,6 @@
 ﻿
 using DO;
 using DalApi;
-using static Dal.DalExceptions;
-
 namespace Dal;
 
 public class SaleImplementation : ISale
@@ -20,7 +18,7 @@ public class SaleImplementation : ISale
     {
         if (DataSource.Sales.Exists((p) => p.Id == id))
             DataSource.Sales.Remove(DataSource.Sales.Find((p) => p.Id == id));
-        throw new DalIdNotExsist("sale is not exsist");
+        throw new DalIdNotExist("sale is not exsist");
 
     }
 
@@ -28,7 +26,7 @@ public class SaleImplementation : ISale
     {
         if (DataSource.Sales.Exists((p) => p.Id == id))
             return DataSource.Sales.Find((p) => p.Id == id);
-        throw new DalIdNotExsist("sale is not exsist");
+        throw new DalIdNotExist("sale is not exsist");
        
     }
 
