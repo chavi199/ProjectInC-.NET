@@ -1,9 +1,8 @@
-﻿
+﻿namespace Dal;
 using DO;
 using DalApi;
-using static Dal.Exceptions;
 
-namespace Dal;
+
 
 public class ProductImplementation : IProduct
 {

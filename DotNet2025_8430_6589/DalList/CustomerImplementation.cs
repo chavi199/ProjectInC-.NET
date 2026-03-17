@@ -5,8 +5,6 @@ using System.Security.AccessControl;
 //using  DO
 
 namespace Dal;
-
-
 public class CustomerImplementation : ICustomer
 {
 
