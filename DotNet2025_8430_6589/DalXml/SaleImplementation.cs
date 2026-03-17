@@ -13,7 +13,7 @@ namespace Dal
     internal class SaleImplementation : ISale
     {
 
-        readonly string saleXmlPath = @"..\xml\sales.xml";
+        readonly string saleXmlPath = @"..\..\..\..\xml\sales.xml";
 
         public int Create(Sale item)
         {

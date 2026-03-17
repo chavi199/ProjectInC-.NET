@@ -75,3 +75,26 @@ C:\Users\1\Documents\י'ד\C#NET במלחמההה\ProjectInC-.NET\DotNet2025_843
 C:\Users\1\Documents\י'ד\C#NET במלחמההה\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.pdb
 C:\Users\1\Documents\י'ד\C#NET במלחמההה\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.genruntimeconfig.cache
 C:\Users\1\Documents\י'ד\C#NET במלחמההה\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\ref\DalTest.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\refint\DalTest.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalTest.exe
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalTest.deps.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalTest.runtimeconfig.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalTest.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalTest.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalFacade.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalList.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalXml.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalFacade.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalList.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\bin\Debug\net8.0\DalXml.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.AssemblyInfo.cs
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.sourcelink.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.csproj.Up2Date
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\DalTest.genruntimeconfig.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\net8.0\ref\DalTest.dll

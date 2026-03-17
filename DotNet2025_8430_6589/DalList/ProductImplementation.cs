@@ -28,7 +28,7 @@ public class ProductImplementation : IProduct
     {
         if(DataSource.Products.Exists((p)=>p.Id == id))
             return DataSource.Products.Find((p)=>p.Id == id);
-        throw new DalIdNotExsit("product is not exist");
+        throw new DalIdNotExist("product is not exist");
     }
 
     public Product? Read(Func<Product, bool>? filter)///אם הפונקציה בcustomerImplemention טובה אז להעתיק לפה

@@ -39,3 +39,19 @@ C:\Users\1\Documents\י'ד\C#NET במלחמההה\ProjectInC-.NET\DotNet2025_843
 C:\Users\1\Documents\י'ד\C#NET במלחמההה\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.dll
 C:\Users\1\Documents\י'ד\C#NET במלחמההה\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\refint\DalList.dll
 C:\Users\1\Documents\י'ד\C#NET במלחמההה\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.AssemblyInfo.cs
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.sourcelink.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\refint\DalList.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalList\bin\Debug\net8.0\DalList.deps.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalList\bin\Debug\net8.0\DalList.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalList\bin\Debug\net8.0\DalList.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalList\bin\Debug\net8.0\DalFacade.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalList\bin\Debug\net8.0\DalFacade.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\DalList.csproj.Up2Date
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\net8.0\ref\DalList.dll

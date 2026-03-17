@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfSale>
+<ArrayOfSale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sale>
+    <Id>100</Id>
+    <ProductId>55</ProductId>
+    <RequiredQuantity>656</RequiredQuantity>
+    <PriceAfterDiscount>562</PriceAfterDiscount>
+    <IsForClubMemberOnly>true</IsForClubMemberOnly>
+    <StartDate>2025-08-18T00:00:00</StartDate>
+    <EndDate>2026-08-19T00:00:00</EndDate>
+  </Sale>
 </ArrayOfSale>

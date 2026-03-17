@@ -1,0 +1,16 @@
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\bin\Debug\net8.0\DalXml.deps.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\bin\Debug\net8.0\DalXml.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\bin\Debug\net8.0\DalXml.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\bin\Debug\net8.0\DalFacade.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\bin\Debug\net8.0\DalFacade.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\net8.0\DalXml.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\net8.0\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\net8.0\DalXml.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\net8.0\DalXml.AssemblyInfo.cs
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\net8.0\DalXml.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\net8.0\DalXml.sourcelink.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\net8.0\DalXml.csproj.Up2Date
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\net8.0\DalXml.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\net8.0\refint\DalXml.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\net8.0\DalXml.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\net8.0\ref\DalXml.dll

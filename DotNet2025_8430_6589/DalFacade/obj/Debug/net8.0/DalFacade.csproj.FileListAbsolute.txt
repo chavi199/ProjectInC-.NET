@@ -34,3 +34,15 @@ C:\Users\1\Documents\י'ד\C#NET במלחמההה\ProjectInC-.NET\DotNet2025_843
 C:\Users\1\Documents\י'ד\C#NET במלחמההה\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\refint\DalFacade.dll
 C:\Users\1\Documents\י'ד\C#NET במלחמההה\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\DalFacade.pdb
 C:\Users\1\Documents\י'ד\C#NET במלחמההה\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\ref\DalFacade.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\bin\Debug\net8.0\DalFacade.deps.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\bin\Debug\net8.0\DalFacade.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\bin\Debug\net8.0\DalFacade.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\DalFacade.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\DalFacade.AssemblyInfo.cs
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\DalFacade.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\DalFacade.sourcelink.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\DalFacade.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\refint\DalFacade.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\DalFacade.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\net8.0\ref\DalFacade.dll

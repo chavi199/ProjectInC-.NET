@@ -11,7 +11,7 @@ namespace Dal
 {
     internal class ProductImplementation : IProduct
     {
-        readonly string productXmlPath = @"..\xml\products.xml";
+        readonly string productXmlPath = @"..\..\..\..\xml\products.xml";
 
         public int Create(Product item)
         {
