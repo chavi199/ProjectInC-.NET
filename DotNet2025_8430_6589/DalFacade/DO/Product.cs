@@ -9,14 +9,14 @@ namespace DO
     public record Product(
        int Id,
        string Name,
-       Category  category ,
+       Category  Category ,
        double Price,
        int Amount
         )
 
     {
 
-        public Product() : this(1, "", Category.bracelet, 200.0, 100)
+        public Product() : this(0, "", Category.bracelet, 200.0, 100)
         {
 
         }

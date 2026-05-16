@@ -1,38 +1,48 @@
 ﻿
 using DO;
 using DalApi;
+using System.Linq;
 namespace Dal;
 
 public class SaleImplementation : ISale
-{//לשנות את הפונקציות פה כמו CustomerImplementation
+{
     public int Create(Sale item)
     {
-        int myId = DataSource.config.NextIndexSale;
-        Sale sale = item with { Id = myId };
-        DataSource.Sales.Add(sale);
-        return myId;
+        if (!DataSource.Sales.Any((s) => s.Id == item.Id))
+        {
+            Sale sale = item with { Id = DataSource.config.NextIndexSale};
+            DataSource.Sales.Add(sale);
+            return sale.Id;
+        }
+        throw new DalIdAlreadyExist("Sale is already");
 
     }
 
     public void Delete(int id)
     {
-        if (DataSource.Sales.Exists((p) => p.Id == id))
-            DataSource.Sales.Remove(DataSource.Sales.Find((p) => p.Id == id));
-        throw new DalIdNotExist("sale is not exsist");
+        var c = DataSource.Sales.FirstOrDefault(s => s.Id == id);
+        if (c != null)
+            DataSource.Sales.Remove(c);
+        else
+            throw new DalIdNotExist("Sale is not exists");
 
     }
 
     public Sale? Read(int id)
     {
-        if (DataSource.Sales.Exists((p) => p.Id == id))
-            return DataSource.Sales.Find((p) => p.Id == id);
-        throw new DalIdNotExist("sale is not exsist");
-       
+        var g = DataSource.Sales.FirstOrDefault((s) => s.Id == id);
+        if (g != null)
+            return g;
+        throw new DalIdNotExist("Sale is not exists");
+
     }
 
-    public Sale? Read(Func<Sale, bool>? filter)///אם הפונקציה בcustomerImplemention טובה אז להעתיק לפה
+    public Sale? Read(Func<Sale, bool>? filter)
     {
-        throw new NotImplementedException();
+        Sale sale = DataSource.Sales.FirstOrDefault(s=>filter(s));
+        if (sale != null)
+            return sale;
+        throw new DalIdNotExist("Sale is not exists");
     }
 
     public List<Sale> ReadAll()
@@ -44,15 +54,14 @@ public class SaleImplementation : ISale
 
     public List<Sale?> ReadAll(Func<Sale, bool>? filter = null)
     {
-        throw new NotImplementedException();
+        if (filter != null)
+            return DataSource.Sales.Where(filter).ToList();
+        return new List<Sale?>(DataSource.Sales);
     }
 
     public void Update(Sale item)
     {
-        if (DataSource.Sales.Exists((p) => p.Id == item.Id))
-        {
-            Delete(item.Id);
-            DataSource.Sales.Add(item);
-        }
+        Delete(item.Id);
+        DataSource.Sales.Add(item);
     }
 }

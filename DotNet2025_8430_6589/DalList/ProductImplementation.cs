@@ -1,59 +1,61 @@
 ﻿namespace Dal;
-using DO;
 using DalApi;
+using DO;
 
 
 
 public class ProductImplementation : IProduct
 {
-    //לשנות את הפונקציות פה כמו CustomerImplementation
-
     public int Create(Product item)
     {
-        int myId = DataSource.config.NextIndexProduct;
-        Product product=item with { Id = myId };
-        DataSource.Products.Add(product);
-        return myId;
-        
+        if (!DataSource.Products.Any((p) => p.Id == item.Id))
+        {
+            Product product = item with { Id = DataSource.config.NextIndexProduct };
+            DataSource.Products.Add(product);
+            return product.Id;
+        }
+        throw new DalIdAlreadyExist("Products is already");       
     }
 
     public void Delete(int id)
     {
-        if (DataSource.Products.Exists((p) => p.Id == id))
-            DataSource.Products.Remove(DataSource.Products.Find((p) => p.Id == id));
-        throw new DalIdNotExist("product id is not exist");
+        Product product = DataSource.Products.FirstOrDefault(x => x.Id == id);
+        if (product != null)
+            DataSource.Products.Remove(product);
+        else
+            throw new DalIdNotExist("Products is not exists");
     }
 
     public Product? Read(int id)
     {
-        if(DataSource.Products.Exists((p)=>p.Id == id))
-            return DataSource.Products.Find((p)=>p.Id == id);
-        throw new DalIdNotExist("product is not exist");
-    }
+        Product product = DataSource.Products.FirstOrDefault((p) => p.Id == id);
+        if (product != null)
+            return product;
+        throw new DalIdNotExist("Products is not exists");
+           }
 
-    public Product? Read(Func<Product, bool>? filter)///אם הפונקציה בcustomerImplemention טובה אז להעתיק לפה
+    public Product? Read(Func<Product, bool>? filter)
     {
-        throw new NotImplementedException();
+        Product product = DataSource.Products.FirstOrDefault(p => filter(p));
+        if (product != null)
+            return product;
+        throw new DalIdNotExist("Products is not exists");
     }
-
-    public List<Product> ReadAll()
+   
+    public List<Product?> ReadAll(Func<Product, bool>? filter = null)//////
     {
-        List<Product> newProducts = new List<Product>(DataSource.Products);
-        return newProducts;
 
-    }
-
-    public List<Product?> ReadAll(Func<Product, bool>? filter = null)
-    {
-        throw new NotImplementedException();
+        if (filter != null)
+            return DataSource.Products.Where(filter).ToList();
+        return new List<Product?>(DataSource.Products);
     }
 
     public void Update(Product item)
     {
-        if (DataSource.Products.Exists((p) => p.Id ==item.Id )) { 
-            Delete(item.Id);
-            DataSource.Products.Add(item);
-        }
+
+        Delete(item.Id);
+        DataSource.Products.Add(item);
+        
     }
 
 

@@ -1,4 +1,4 @@
-﻿using Dal;
+﻿//using Dal;
 using DalApi;
 using System;
 using System.Collections.Generic;
@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DalXml
+namespace Dal
 {
-    public sealed class DalXml : IDal
+    internal sealed class DalXml : IDal
     {
 
         private static DalXml  instance { get; } =new DalXml();

@@ -10,7 +10,7 @@ namespace DO
         int Id,
         int ProductId, 
         int RequiredQuantity,
-        int PriceAfterDiscount,
+        double PriceAfterDiscount,
         bool IsForClubMemberOnly,
         DateTime StartDate,
         DateTime EndDate

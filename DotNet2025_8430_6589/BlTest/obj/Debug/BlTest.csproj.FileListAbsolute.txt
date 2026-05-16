@@ -1,0 +1,34 @@
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\BlTest.exe
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\BlTest.deps.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\BlTest.runtimeconfig.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\BlTest.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\BlTest.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.AssemblyInfo.cs
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.sourcelink.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.csproj.Up2Date
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\refint\BlTest.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.genruntimeconfig.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\ref\BlTest.dll
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\BlTest.exe
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.csproj.AssemblyReference.cache
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.AssemblyInfoInputs.cache
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.AssemblyInfo.cs
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.csproj.CoreCompileInputs.cache
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.sourcelink.json
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.csproj.Up2Date
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.dll
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\refint\BlTest.dll
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.pdb
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\BlTest.deps.json
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\BlTest.runtimeconfig.json
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\BlTest.dll
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\BlTest.pdb
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\BlTest.genruntimeconfig.cache
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\ref\BlTest.dll

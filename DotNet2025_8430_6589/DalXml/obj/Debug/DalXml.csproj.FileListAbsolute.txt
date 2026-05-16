@@ -1,0 +1,28 @@
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalXml.deps.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalXml.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalXml.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\DalXml.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\DalXml.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\DalXml.sourcelink.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\DalXml.csproj.Up2Date
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\DalXml.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\refint\DalXml.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\DalXml.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\ref\DalXml.dll
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalXml.deps.json
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalXml.dll
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalXml.pdb
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\DalXml.csproj.AssemblyReference.cache
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\DalXml.GeneratedMSBuildEditorConfig.editorconfig
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\DalXml.AssemblyInfoInputs.cache
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\DalXml.AssemblyInfo.cs
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\DalXml.csproj.CoreCompileInputs.cache
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\DalXml.sourcelink.json
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\DalXml.csproj.Up2Date
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\DalXml.dll
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\refint\DalXml.dll
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\DalXml.pdb
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\obj\Debug\ref\DalXml.dll

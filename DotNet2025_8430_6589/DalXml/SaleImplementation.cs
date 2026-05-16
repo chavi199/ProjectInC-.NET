@@ -10,16 +10,78 @@ using System.Xml.Serialization;
 
 namespace Dal
 {
-    internal class SaleImplementation : ISale
+    public class SaleImplementation : ISale
     {
 
-        readonly string saleXmlPath = @"..\..\..\..\xml\sales.xml";
+        readonly string saleXmlPath = @"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+..\xml\sales.xml";
 
         public int Create(Sale item)
         {
             XmlSerializer serializer = new XmlSerializer(typeof(List<Sale>));
             List<Sale> saleList = new List<Sale>();
-            int myId = DalXml.Config.SaleNum;
+            int myId = Config.SaleNum;
             var newItem = item with { Id = myId };
             using (StreamReader sr = new StreamReader(saleXmlPath))
             {

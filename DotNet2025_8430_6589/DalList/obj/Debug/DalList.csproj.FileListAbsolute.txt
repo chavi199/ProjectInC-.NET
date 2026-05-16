@@ -1,0 +1,28 @@
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalList.deps.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalList.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalList.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\DalList.AssemblyInfo.cs
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\DalList.sourcelink.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\DalList.csproj.Up2Date
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\DalList.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\refint\DalList.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\DalList.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\ref\DalList.dll
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalList.deps.json
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalList.dll
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalList.pdb
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\DalList.csproj.AssemblyReference.cache
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\DalList.GeneratedMSBuildEditorConfig.editorconfig
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\DalList.AssemblyInfoInputs.cache
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\DalList.AssemblyInfo.cs
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\DalList.csproj.CoreCompileInputs.cache
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\DalList.sourcelink.json
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\DalList.csproj.Up2Date
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\DalList.dll
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\refint\DalList.dll
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\DalList.pdb
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalList\obj\Debug\ref\DalList.dll

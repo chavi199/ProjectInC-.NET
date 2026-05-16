@@ -1,0 +1,36 @@
+E:\שנה ב\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\net8.0\BlTest.csproj.AssemblyReference.cache
+E:\שנה ב\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\net8.0\BlTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\שנה ב\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\net8.0\BlTest.AssemblyInfoInputs.cache
+E:\שנה ב\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\net8.0\BlTest.AssemblyInfo.cs
+E:\שנה ב\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\net8.0\BlTest.csproj.CoreCompileInputs.cache
+E:\שנה ב\פרויקט במלחמהה אחרי שלב 9-עדיין לא רץ\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\net8.0\BlTest.sourcelink.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\net8.0\BlTest.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\net8.0\BlTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\net8.0\BlTest.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\net8.0\BlTest.AssemblyInfo.cs
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\net8.0\BlTest.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\net8.0\BlTest.sourcelink.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\bin\Debug\net8.0\DalTest.deps.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\bin\Debug\net8.0\DalTest.runtimeconfig.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\bin\Debug\net8.0\DalTest.exe
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\bin\Debug\net8.0\BlTest.exe
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\bin\Debug\net8.0\BlTest.deps.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\bin\Debug\net8.0\BlTest.runtimeconfig.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\bin\Debug\net8.0\BlTest.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\bin\Debug\net8.0\BlTest.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\bin\Debug\net8.0\BL.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\bin\Debug\net8.0\DalFacade.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\bin\Debug\net8.0\DalList.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\bin\Debug\net8.0\DalTest.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\bin\Debug\net8.0\DalXml.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\bin\Debug\net8.0\BL.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\bin\Debug\net8.0\DalTest.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\bin\Debug\net8.0\DalFacade.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\bin\Debug\net8.0\DalList.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\bin\Debug\net8.0\DalXml.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\net8.0\BlTest.csproj.Up2Date
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\net8.0\BlTest.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\net8.0\refint\BlTest.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\net8.0\BlTest.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\net8.0\BlTest.genruntimeconfig.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\BlTest\obj\Debug\net8.0\ref\BlTest.dll

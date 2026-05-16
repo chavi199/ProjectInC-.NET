@@ -11,16 +11,16 @@ namespace Dal
 {
     internal class ProductImplementation : IProduct
     {
-        readonly string productXmlPath = @"..\..\..\..\xml\products.xml";
+        readonly string productXmlPath = @"..\xml\products.xml";
 
         public int Create(Product item)
         {
-            int myId = DalXml.Config.ProductNum;
+            int myId = Config.ProductNum;
             XElement productsList = XElement.Load(productXmlPath);
             productsList.Add(new XElement("Product",
                 new XElement("Id", myId),
                  new XElement("Name", item.Name),
-                  new XElement("category", item.category),
+                  new XElement("category", item.Category),
                   new XElement("Price", item.Price),
                    new XElement("Amount", item.Amount)));
 
@@ -93,7 +93,7 @@ namespace Dal
             {
                 product.Element("Id").SetValue(item.Id);
                 product.Element("Name").SetValue(item.Name);
-                product.Element("category").SetValue(item.category);
+                product.Element("category").SetValue(item.Category);
                 product.Element("Price").SetValue(item.Price);
                 product.Element("Amount").SetValue(item.Amount);
                 productsList.Save(productXmlPath);

@@ -1,0 +1,34 @@
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalTest.exe
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalTest.deps.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalTest.runtimeconfig.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalTest.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalTest.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.sourcelink.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.csproj.Up2Date
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\refint\DalTest.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\ref\DalTest.dll
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalTest.exe
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalTest.deps.json
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalTest.runtimeconfig.json
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalTest.dll
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalTest.pdb
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.csproj.AssemblyReference.cache
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.AssemblyInfoInputs.cache
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.AssemblyInfo.cs
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.csproj.CoreCompileInputs.cache
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.sourcelink.json
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.csproj.Up2Date
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.dll
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\refint\DalTest.dll
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.pdb
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\DalTest.genruntimeconfig.cache
+E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalTest\obj\Debug\ref\DalTest.dll

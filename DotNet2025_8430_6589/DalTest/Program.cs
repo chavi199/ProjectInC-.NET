@@ -2,6 +2,7 @@
 using DalApi;
 using DO;
 using System;
+using System.Data.Common;
 using System.Data.SqlTypes;
 using System.Diagnostics;
 using System.Linq.Expressions;
@@ -10,12 +11,8 @@ using System.Xml.Linq;
 namespace DalTest;
 internal class Program
 {
-
-    // private static IDal s_dal = new Dal.DalList();
-   private static readonly IDal s_dal = DalXml.DalXml.Instance;
-    //private static ICustomer? c_dalCustomer;
-    //private static ISale? s_dalSale;
-
+   private static readonly IDal s_dal = DalApi.Factory.Get;
+  
 
     static void Main(string[] args)
     {

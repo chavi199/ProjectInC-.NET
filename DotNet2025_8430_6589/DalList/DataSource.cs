@@ -11,7 +11,7 @@ internal static class DataSource
 
     internal static class config
     {
-        internal const int SaleMinCode = 0;
+        internal const int SaleMinCode = 1;
         internal const int  ProductMinCode = 100;
         private static int SaleIndex = SaleMinCode;
         private static int ProductIndex = ProductMinCode;

@@ -10,7 +10,7 @@ public static class Initialization
     //private static ISale? s_dalSale;
     //private static ICustomer? c_dalCustomer = new CustomerImplementation(new Customer());
     //private static ISale? s_dalSale = new SaleImplementation(new Sale());
-    private static IDal? s_dal=new Dal.DalList();
+    private static IDal? s_dal = DalApi.Factory.Get;
 
     public static void CreateCustomers()
     {
@@ -20,11 +20,11 @@ public static class Initialization
         //c_dalCustomer.Create(new Customer(2547, "Faigi", "Mea shearim", ""));
         //c_dalCustomer.Create(new Customer(4125, "Odaya", "Avi Ezri", "0556762688"));
 
-        s_dal.Customer.Create(new Customer(2163, "Shira", "Shamgar", "02568479"));
-        s_dal.Customer.Create(new Customer(2983, "Chava", "Minchat Yitschak", "02566579"));
-        s_dal.Customer.Create(new Customer(3563, "Chaya Sara", "Jeremiah", "02568379"));
-        s_dal.Customer.Create(new Customer(2547, "Faigi", "Mea shearim", ""));
-        s_dal.Customer.Create(new Customer(4125, "Odaya", "Avi Ezri", "0556762688"));
+        //s_dal.Customer.Create(new Customer(2163, "Shira", "Shamgar", "02568479"));
+        //s_dal.Customer.Create(new Customer(2983, "Chava", "Minchat Yitschak", "02566579"));
+        //s_dal.Customer.Create(new Customer(3563, "Chaya Sara", "Jeremiah", "02568379"));
+        //s_dal.Customer.Create(new Customer(2547, "Faigi", "Mea shearim", ""));
+        //s_dal.Customer.Create(new Customer(4125, "Odaya", "Avi Ezri", "0556762688"));
     }
     public static void CreateProducts()
     {

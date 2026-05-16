@@ -11,9 +11,9 @@ using System.Xml.Serialization;
 
 namespace Dal
 {
-    internal class CustomerImplementation : ICustomer
+    public class CustomerImplementation : ICustomer
     {
-        readonly string customerXmlPath = @"..\..\..\..\xml\customers.xml";
+        readonly string customerXmlPath = @"..\xml\customers.xml";
         public int Create(Customer item)
         {
             XmlSerializer serializer = new XmlSerializer(typeof(List<Customer>));
