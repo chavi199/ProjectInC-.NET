@@ -9,8 +9,7 @@ namespace Dal
 {
     internal static class Config
     {
-        private static string configurationFileName = @"..\..\..\..\xml\data-config.xml";
-
+        private static string configurationFileName = @"..\xml\data-config.xml";//@"..\..\..\..\xml\data-config.xml";
         public static int ProductNum
         {
             get

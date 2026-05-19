@@ -107,8 +107,8 @@ internal class Program
         DateTime StartDate;
         DateTime EndDate;
 
-        Console.WriteLine("Enter the ID of the Sale");
-        Id = int.Parse(Console.ReadLine());
+        //Console.WriteLine("Enter the ID of the Sale");
+        //Id = int.Parse(Console.ReadLine());
 
         Console.WriteLine("Enter the ProductId ");
         int cat;
@@ -135,7 +135,7 @@ internal class Program
         Console.WriteLine("Enter EndDate");
         if (!DateTime.TryParse(Console.ReadLine(), out EndDate))
             EndDate = DateTime.Now;
-        return new Sale(Id, ProductId, RequiredQuantity, PriceAfterDiscount
+        return new Sale(code, ProductId, RequiredQuantity, PriceAfterDiscount
             , IsForClubMemberOnly, StartDate, EndDate);
     }
     private static Customer AskClient(int identity = 0)

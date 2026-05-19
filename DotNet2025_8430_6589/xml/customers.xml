@@ -24,4 +24,10 @@
     <Address>tel aviv</Address>
     <Phone>123123123</Phone>
   </Customer>
+  <Customer>
+    <Id>327856589</Id>
+    <Name>chavi</Name>
+    <Address>chazon hish</Address>
+    <Phone>0548525371</Phone>
+  </Customer>
 </ArrayOfCustomer>

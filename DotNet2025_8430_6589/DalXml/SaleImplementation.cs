@@ -13,69 +13,8 @@ namespace Dal
     public class SaleImplementation : ISale
     {
 
-        readonly string saleXmlPath = @"
+        readonly string saleXmlPath = @"..\xml\sales.xml";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-..\xml\sales.xml";
 
         public int Create(Sale item)
         {

@@ -1,10 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfProduct>
   <Product>
-    <Id>0</Id>
-    <Name>brachalet goldfid</Name>
+    <Id>100</Id>
+    <Name>Link bracelet</Name>
     <category>bracelet</category>
-    <Price>5000</Price>
-    <Amount>14</Amount>
+    <Price>500.5</Price>
+    <Amount>30</Amount>
+  </Product>
+  <Product>
+    <Id>101</Id>
+    <Name>Pearl earrings</Name>
+    <category>earrings</category>
+    <Price>800</Price>
+    <Amount>20</Amount>
+  </Product>
+  <Product>
+    <Id>102</Id>
+    <Name>Diamond ring</Name>
+    <category>ring</category>
+    <Price>1200</Price>
+    <Amount>10</Amount>
+  </Product>
+  <Product>
+    <Id>103</Id>
+    <Name>MK watch</Name>
+    <category>watch</category>
+    <Price>420</Price>
+    <Amount>36</Amount>
+  </Product>
+  <Product>
+    <Id>104</Id>
+    <Name>Pearl necklace</Name>
+    <category>necklace</category>
+    <Price>800</Price>
+    <Amount>20</Amount>
+  </Product>
+  <Product>
+    <Id>105</Id>
+    <Name>Link bracelet</Name>
+    <category>bracelet</category>
+    <Price>500.5</Price>
+    <Amount>30</Amount>
+  </Product>
+  <Product>
+    <Id>106</Id>
+    <Name>Pearl earrings</Name>
+    <category>earrings</category>
+    <Price>800</Price>
+    <Amount>20</Amount>
+  </Product>
+  <Product>
+    <Id>107</Id>
+    <Name>Diamond ring</Name>
+    <category>ring</category>
+    <Price>1200</Price>
+    <Amount>10</Amount>
+  </Product>
+  <Product>
+    <Id>108</Id>
+    <Name>MK watch</Name>
+    <category>watch</category>
+    <Price>420</Price>
+    <Amount>36</Amount>
+  </Product>
+  <Product>
+    <Id>109</Id>
+    <Name>Pearl necklace</Name>
+    <category>necklace</category>
+    <Price>800</Price>
+    <Amount>20</Amount>
   </Product>
 </ArrayOfProduct>

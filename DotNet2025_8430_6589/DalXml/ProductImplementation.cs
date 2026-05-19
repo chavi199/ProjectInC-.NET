@@ -13,6 +13,7 @@ namespace Dal
     {
         readonly string productXmlPath = @"..\xml\products.xml";
 
+
         public int Create(Product item)
         {
             int myId = Config.ProductNum;

@@ -14,6 +14,7 @@ namespace Dal
     public class CustomerImplementation : ICustomer
     {
         readonly string customerXmlPath = @"..\xml\customers.xml";
+
         public int Create(Customer item)
         {
             XmlSerializer serializer = new XmlSerializer(typeof(List<Customer>));
