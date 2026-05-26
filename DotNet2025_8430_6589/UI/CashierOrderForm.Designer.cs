@@ -1,0 +1,111 @@
+namespace UI
+{
+    partial class CashierOrderForm
+    {
+        private System.ComponentModel.IContainer components = null;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        private void InitializeComponent()
+        {
+            ProductList = new DataGridView();
+            OrderSummaryList = new DataGridView();
+            ProductCodeTB = new TextBox();
+            AddProductBT = new Button();
+            DoOrderBT = new Button();
+            TotalLabel = new Label();
+            ((System.ComponentModel.ISupportInitialize)ProductList).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)OrderSummaryList).BeginInit();
+            SuspendLayout();
+            // 
+            // ProductList
+            // 
+            ProductList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            ProductList.Location = new Point(20, 20);
+            ProductList.Name = "ProductList";
+            ProductList.RowHeadersWidth = 51;
+            ProductList.Size = new Size(300, 200);
+            ProductList.TabIndex = 0;
+            ProductList.CellContentClick += ProductList_CellContentClick;
+            // 
+            // OrderSummaryList
+            // 
+            OrderSummaryList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            OrderSummaryList.Location = new Point(420, 20);
+            OrderSummaryList.Name = "OrderSummaryList";
+            OrderSummaryList.RowHeadersWidth = 51;
+            OrderSummaryList.Size = new Size(300, 200);
+            OrderSummaryList.TabIndex = 1;
+            // 
+            // ProductCodeTB
+            // 
+            ProductCodeTB.Location = new Point(20, 240);
+            ProductCodeTB.Name = "ProductCodeTB";
+            ProductCodeTB.PlaceholderText = "קוד מוצר";
+            ProductCodeTB.Size = new Size(200, 27);
+            ProductCodeTB.TabIndex = 2;
+            // 
+            // AddProductBT
+            // 
+            AddProductBT.Location = new Point(240, 240);
+            AddProductBT.Name = "AddProductBT";
+            AddProductBT.Size = new Size(80, 27);
+            AddProductBT.TabIndex = 3;
+            AddProductBT.Text = "הוסף";
+            AddProductBT.UseVisualStyleBackColor = true;
+            AddProductBT.Click += AddProductBT_Click;
+            // 
+            // DoOrderBT
+            // 
+            DoOrderBT.Location = new Point(420, 240);
+            DoOrderBT.Name = "DoOrderBT";
+            DoOrderBT.Size = new Size(100, 40);
+            DoOrderBT.TabIndex = 4;
+            DoOrderBT.Text = "סיים הזמנה";
+            DoOrderBT.UseVisualStyleBackColor = true;
+            DoOrderBT.Click += DoOrderBT_Click;
+            // 
+            // TotalLabel
+            // 
+            TotalLabel.Location = new Point(420, 290);
+            TotalLabel.Name = "TotalLabel";
+            TotalLabel.Size = new Size(300, 30);
+            TotalLabel.TabIndex = 5;
+            TotalLabel.Text = "סה\"כ: 0";
+            // 
+            // CashierOrderForm
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(750, 350);
+            Controls.Add(TotalLabel);
+            Controls.Add(DoOrderBT);
+            Controls.Add(AddProductBT);
+            Controls.Add(ProductCodeTB);
+            Controls.Add(OrderSummaryList);
+            Controls.Add(ProductList);
+            Name = "CashierOrderForm";
+            Text = "Cashier Order Form";
+            ((System.ComponentModel.ISupportInitialize)ProductList).EndInit();
+            ((System.ComponentModel.ISupportInitialize)OrderSummaryList).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
+        }
+
+        //#endregion
+
+        private DataGridView ProductList;
+        private DataGridView OrderSummaryList;
+        private TextBox ProductCodeTB;
+        private Button AddProductBT;
+        private Button DoOrderBT;
+        private Label TotalLabel;
+    }
+}

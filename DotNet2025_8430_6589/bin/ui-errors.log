@@ -1,0 +1,44 @@
+2026-05-19 15:25:04 | System.Reflection.TargetParameterCountException | Parameter count mismatch.
+   at System.Reflection.MethodBaseInvoker.ThrowTargetParameterCountException()
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.PropertyInfo.GetValue(Object obj)
+   at BO.Tools.ToStringProperty[T](T obj) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\BL\BO\Tools.cs:line 24
+   at BO.Tools.ToStringProperty[T](T obj) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\BL\BO\Tools.cs:line 24
+   at BO.Product.ToString() in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\BL\BO\Product.cs:line 32
+   at UI.ProductPage.ReadBT_Click(Object sender, EventArgs e) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\UI\ProductPage.cs:line 38
+2026-05-19 15:35:56 | DO.DalIdAlreadyExist | Sale with id:2 was not found
+   at Dal.SaleImplementation.Update(Sale item) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\SaleImplementation.cs:line 134
+   at BlImplementation.SaleImplementation.Update(Sale sale) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\BL\BlImplementation\SaleImplementation.cs:line 89
+   at UI.SaleEditForm.SaveBT_Click(Object sender, EventArgs e) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\UI\SaleEditForm.cs:line 47
+2026-05-19 15:36:06 | DO.DalIdAlreadyExist | Sale with id:2 was not found
+   at Dal.SaleImplementation.Update(Sale item) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\SaleImplementation.cs:line 134
+   at BlImplementation.SaleImplementation.Update(Sale sale) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\BL\BlImplementation\SaleImplementation.cs:line 89
+   at UI.SaleEditForm.SaveBT_Click(Object sender, EventArgs e) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\UI\SaleEditForm.cs:line 47
+2026-05-19 15:36:18 | DO.DalIdAlreadyExist | Sale with id:2 was not found
+   at Dal.SaleImplementation.Update(Sale item) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\SaleImplementation.cs:line 134
+   at BlImplementation.SaleImplementation.Update(Sale sale) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\BL\BlImplementation\SaleImplementation.cs:line 89
+   at UI.SaleEditForm.SaveBT_Click(Object sender, EventArgs e) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\UI\SaleEditForm.cs:line 47
+2026-05-19 15:38:19 | DO.DalIdAlreadyExist | Sale with id:2 was not found
+   at Dal.SaleImplementation.Update(Sale item) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\SaleImplementation.cs:line 134
+   at BlImplementation.SaleImplementation.Update(Sale sale) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\BL\BlImplementation\SaleImplementation.cs:line 89
+   at UI.SaleEditForm.SaveBT_Click(Object sender, EventArgs e) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\UI\SaleEditForm.cs:line 47
+2026-05-19 15:38:33 | System.Reflection.TargetParameterCountException | Parameter count mismatch.
+   at System.Reflection.MethodBaseInvoker.ThrowTargetParameterCountException()
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at BO.Tools.ToStringProperty[T](T obj) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\BL\BO\Tools.cs:line 24
+   at BO.Tools.ToStringProperty[T](T obj) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\BL\BO\Tools.cs:line 24
+   at BO.Product.ToString() in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\BL\BO\Product.cs:line 32
+   at UI.ProductPage.ReadBT_Click(Object sender, EventArgs e) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\UI\ProductPage.cs:line 38
+2026-05-19 15:39:03 | System.Reflection.TargetParameterCountException | Parameter count mismatch.
+   at System.Reflection.MethodBaseInvoker.ThrowTargetParameterCountException()
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at BO.Tools.ToStringProperty[T](T obj) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\BL\BO\Tools.cs:line 24
+   at BO.Tools.ToStringProperty[T](T obj) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\BL\BO\Tools.cs:line 24
+   at BO.Product.ToString() in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\BL\BO\Product.cs:line 32
+   at UI.ProductPage.ReadBT_Click(Object sender, EventArgs e) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\UI\ProductPage.cs:line 38
+2026-05-19 15:45:42 | DO.DalIdAlreadyExist | Customer with id:2222 was not found
+   at Dal.CustomerImplementation.Update(Customer item) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\DalXml\CustomerImplementation.cs:line 138
+   at BlImplementation.CustomerImplementation.Update(Customer customer) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\BL\BlImplementation\CustomerImplementation.cs:line 96
+   at UI.CustomerEditForm.SaveBT_Click(Object sender, EventArgs e) in C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\UI\CustomerEditForm.cs:line 39

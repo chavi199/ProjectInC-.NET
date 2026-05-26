@@ -1,0 +1,145 @@
+﻿namespace UI
+{
+    partial class CustomerPage
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            ReadBT = new Button();
+            ReadAllBT = new Button();
+            DeleteBT = new Button();
+            UpdateBT = new Button();
+            CreateBT = new Button();
+            CustomerFilterBT = new Button();
+            button7 = new Button();
+            CustomerList = new DataGridView();
+            ((System.ComponentModel.ISupportInitialize)CustomerList).BeginInit();
+            SuspendLayout();
+            // 
+            // ReadBT
+            // 
+            ReadBT.Location = new Point(637, 66);
+            ReadBT.Name = "ReadBT";
+            ReadBT.Size = new Size(94, 29);
+            ReadBT.TabIndex = 0;
+            ReadBT.Text = "הצג לקוח";
+            ReadBT.UseVisualStyleBackColor = true;
+            ReadBT.Click += ReadBT_Click;
+            // 
+            // ReadAllBT
+            // 
+            ReadAllBT.Location = new Point(561, 111);
+            ReadAllBT.Name = "ReadAllBT";
+            ReadAllBT.Size = new Size(170, 29);
+            ReadAllBT.TabIndex = 1;
+            ReadAllBT.Text = "הצג את כל הלקוחות";
+            ReadAllBT.UseVisualStyleBackColor = true;
+            // 
+            // DeleteBT
+            // 
+            DeleteBT.Location = new Point(637, 156);
+            DeleteBT.Name = "DeleteBT";
+            DeleteBT.Size = new Size(94, 29);
+            DeleteBT.TabIndex = 2;
+            DeleteBT.Text = "מחק לקוח";
+            DeleteBT.UseVisualStyleBackColor = true;
+            // 
+            // UpdateBT
+            // 
+            UpdateBT.Location = new Point(637, 201);
+            UpdateBT.Name = "UpdateBT";
+            UpdateBT.Size = new Size(94, 29);
+            UpdateBT.TabIndex = 3;
+            UpdateBT.Text = "עדכן לקוח";
+            UpdateBT.UseVisualStyleBackColor = true;
+            // 
+            // CreateBT
+            // 
+            CreateBT.Location = new Point(637, 251);
+            CreateBT.Name = "CreateBT";
+            CreateBT.Size = new Size(94, 29);
+            CreateBT.TabIndex = 4;
+            CreateBT.Text = "הוסף לקוח";
+            CreateBT.UseVisualStyleBackColor = true;
+            // 
+            // CustomerFilterBT
+            // 
+            CustomerFilterBT.Location = new Point(637, 296);
+            CustomerFilterBT.Name = "CustomerFilterBT";
+            CustomerFilterBT.Size = new Size(94, 29);
+            CustomerFilterBT.TabIndex = 5;
+            CustomerFilterBT.Text = "סנן לפי שם";
+            CustomerFilterBT.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            button7.Location = new Point(44, 373);
+            button7.Name = "button7";
+            button7.Size = new Size(94, 29);
+            button7.TabIndex = 6;
+            button7.Text = "button7";
+            button7.UseVisualStyleBackColor = true;
+            // 
+            // CustomerList
+            // 
+            CustomerList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            CustomerList.Location = new Point(85, 102);
+            CustomerList.Name = "CustomerList";
+            CustomerList.RowHeadersWidth = 51;
+            CustomerList.Size = new Size(300, 188);
+            CustomerList.TabIndex = 7;
+            // 
+            // CustomerPage
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(CustomerList);
+            Controls.Add(button7);
+            Controls.Add(CustomerFilterBT);
+            Controls.Add(CreateBT);
+            Controls.Add(UpdateBT);
+            Controls.Add(DeleteBT);
+            Controls.Add(ReadAllBT);
+            Controls.Add(ReadBT);
+            Name = "CustomerPage";
+            Text = "Customer Page";
+            ((System.ComponentModel.ISupportInitialize)CustomerList).EndInit();
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private Button ReadBT;
+        private Button ReadAllBT;
+        private Button DeleteBT;
+        private Button UpdateBT;
+        private Button CreateBT;
+        private Button CustomerFilterBT;
+        private Button button7;
+        private DataGridView CustomerList;
+    }
+}

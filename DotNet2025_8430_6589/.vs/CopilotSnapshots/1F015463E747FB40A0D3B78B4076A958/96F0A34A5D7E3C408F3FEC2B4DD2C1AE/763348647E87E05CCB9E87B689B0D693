@@ -1,0 +1,103 @@
+﻿using BlApi;
+using System;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace UI
+{
+    public partial class CashierOrderForm : Form
+    {
+        private readonly IBl bl = Factory.Get();
+        private BO.Order currentOrder;
+
+        public CashierOrderForm()
+        {
+            InitializeComponent();
+            currentOrder = new BO.Order
+            {
+                Products = new System.Collections.Generic.List<BO.ProductInOrder>(),
+                IsPreferredCustomer = false,
+                FinalPrice = 0
+            };
+            LoadProducts();
+            UpdateOrderSummary();
+        }
+
+        private void LoadProducts()
+        {
+            try
+            {
+                ProductList.DataSource = bl.Product.ReadAll().ToList();
+            }
+            catch { MessageBox.Show("Error loading products"); }
+        }
+
+        private void AddProductBT_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int productId = 0;
+                int quantity = 1;
+
+                // Try to parse product code
+                if (!string.IsNullOrWhiteSpace(ProductCodeTB.Text) && int.TryParse(ProductCodeTB.Text, out productId))
+                {
+                    var product = bl.Product.Read(productId);
+                    if (product != null)
+                    {
+                        bl.Order.AddProductToOrder(currentOrder, productId, quantity);
+                        ProductCodeTB.Clear();
+                        UpdateOrderSummary();
+                    }
+                    else
+                        MessageBox.Show("Product not found");
+                }
+                else if (ProductList.SelectedRows.Count > 0)
+                {
+                    var product = (BO.Product)ProductList.SelectedRows[0].DataBoundItem;
+                    bl.Order.AddProductToOrder(currentOrder, product.Id, quantity);
+                    UpdateOrderSummary();
+                }
+                else
+                    MessageBox.Show("Please enter product code or select from list");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error adding product: {ex.Message}");
+            }
+        }
+
+        private void UpdateOrderSummary()
+        {
+            OrderSummaryList.DataSource = null;
+            OrderSummaryList.DataSource = currentOrder.Products.ToList();
+            TotalLabel.Text = $"סה\"כ: {currentOrder.FinalPrice}";
+        }
+
+        private void DoOrderBT_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (currentOrder.Products.Count == 0)
+                {
+                    MessageBox.Show("Order is empty");
+                    return;
+                }
+
+                bl.Order.DoOrder(currentOrder);
+                MessageBox.Show("Order completed successfully!");
+                currentOrder = new BO.Order
+                {
+                    Products = new System.Collections.Generic.List<BO.ProductInOrder>(),
+                    IsPreferredCustomer = false,
+                    FinalPrice = 0
+                };
+                UpdateOrderSummary();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error processing order: {ex.Message}");
+            }
+        }
+    }
+}

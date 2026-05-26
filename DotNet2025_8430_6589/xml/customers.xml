@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Customer>
+    <Id>2</Id>
+    <Name>shosh</Name>
+    <Address>yerishlaiim</Address>
+    <Phone>0548567945</Phone>
+  </Customer>
+  <Customer>
+    <Id>327856589</Id>
+    <Name>chavi</Name>
+    <Address>chazon hish</Address>
+    <Phone>0548525371</Phone>
+  </Customer>
+  <Customer>
+    <Id>11</Id>
+    <Name>חוי</Name>
+    <Address>bb</Address>
+    <Phone>098765432</Phone>
+  </Customer>
+  <Customer>
     <Id>1234</Id>
     <Name>Shira</Name>
     <Address>Shderot ychazkel</Address>
     <Phone>0534194891</Phone>
+  </Customer>
+  <Customer>
+    <Id>55555555</Id>
+    <Name>שפרינצה</Name>
+    <Address>חזון איש 22</Address>
+    <Phone>055648952</Phone>
   </Customer>
   <Customer>
     <Id>1</Id>
@@ -13,21 +37,9 @@
     <Phone>0548525371</Phone>
   </Customer>
   <Customer>
-    <Id>2</Id>
-    <Name>shosh</Name>
-    <Address>yerishlaiim</Address>
-    <Phone>0548567945</Phone>
-  </Customer>
-  <Customer>
-    <Id>3</Id>
-    <Name>shprinza</Name>
-    <Address>tel aviv</Address>
-    <Phone>123123123</Phone>
-  </Customer>
-  <Customer>
-    <Id>327856589</Id>
-    <Name>chavi</Name>
-    <Address>chazon hish</Address>
-    <Phone>0548525371</Phone>
+    <Id>0</Id>
+    <Name>לאה</Name>
+    <Address>בית שמש</Address>
+    <Phone>555666888</Phone>
   </Customer>
 </ArrayOfCustomer>

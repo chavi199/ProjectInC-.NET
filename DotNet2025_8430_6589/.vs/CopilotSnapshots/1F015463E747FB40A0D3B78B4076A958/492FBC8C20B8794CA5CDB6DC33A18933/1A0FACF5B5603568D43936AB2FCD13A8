@@ -1,0 +1,76 @@
+﻿using BlApi;
+using System;
+using System.Windows.Forms;
+
+namespace UI
+{
+    public partial class SaleEditForm : Form
+    {
+        private readonly IBl _bl = Factory.Get();
+        private BO.Sale? _sale;
+        private bool _isEdit;
+
+        public SaleEditForm(BO.Sale? sale = null)
+        {
+            InitializeComponent();
+            _sale = sale;
+            _isEdit = _sale != null;
+            if (_isEdit)
+            {
+                IdTB.Text = _sale!.Id.ToString();
+                IdTB.ReadOnly = true;
+                ProductIdTB.Text = _sale.ProductId.ToString();
+                RequiredQuantityTB.Text = _sale.RequiredQuantity.ToString();
+                PriceAfterDiscountTB.Text = _sale.PriceAfterDiscount.ToString();
+                IsClubCB.Checked = _sale.IsForClubMemberOnly;
+                StartDatePicker.Value = _sale.StartDate;
+                EndDatePicker.Value = _sale.EndDate;
+            }
+        }
+
+        private void SaveBT_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (!int.TryParse(ProductIdTB.Text, out int prodId)) { MessageBox.Show("ProductId required"); return; }
+                if (!int.TryParse(RequiredQuantityTB.Text, out int req)) req = 1;
+                if (!double.TryParse(PriceAfterDiscountTB.Text, out double price)) price = 0;
+
+                if (_isEdit)
+                {
+                    _sale!.ProductId = prodId;
+                    _sale.RequiredQuantity = req;
+                    _sale.PriceAfterDiscount = price;
+                    _sale.IsForClubMemberOnly = IsClubCB.Checked;
+                    _sale.StartDate = StartDatePicker.Value;
+                    _sale.EndDate = EndDatePicker.Value;
+                    _bl.Sale.Update(_sale);
+                }
+                else
+                {
+                    var s = new BO.Sale
+                    {
+                        Id = int.TryParse(IdTB.Text, out int id) ? id : 0,
+                        ProductId = prodId,
+                        RequiredQuantity = req,
+                        PriceAfterDiscount = price,
+                        IsForClubMemberOnly = IsClubCB.Checked,
+                        StartDate = StartDatePicker.Value,
+                        EndDate = EndDatePicker.Value
+                    };
+                    _bl.Sale.Create(s);
+                }
+
+                DialogResult = DialogResult.OK;
+                Close();
+            }
+            catch (Exception ex)
+            {
+                Utils.Log(ex);
+                MessageBox.Show("Error saving sale: " + ex.Message);
+            }
+        }
+
+        private void CancelBT_Click(object sender, EventArgs e) => Close();
+    }
+}

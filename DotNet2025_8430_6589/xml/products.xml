@@ -1,46 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfProduct>
   <Product>
-    <Id>100</Id>
-    <Name>Link bracelet</Name>
-    <category>bracelet</category>
-    <Price>500.5</Price>
-    <Amount>30</Amount>
-  </Product>
-  <Product>
     <Id>101</Id>
-    <Name>Pearl earrings</Name>
+    <Name>Pearl earrin</Name>
     <category>earrings</category>
     <Price>800</Price>
-    <Amount>20</Amount>
+    <Amount>12</Amount>
   </Product>
   <Product>
     <Id>102</Id>
     <Name>Diamond ring</Name>
     <category>ring</category>
-    <Price>1200</Price>
-    <Amount>10</Amount>
+    <Price>12000</Price>
+    <Amount>8</Amount>
   </Product>
   <Product>
     <Id>103</Id>
     <Name>MK watch</Name>
     <category>watch</category>
     <Price>420</Price>
-    <Amount>36</Amount>
+    <Amount>34</Amount>
   </Product>
   <Product>
     <Id>104</Id>
     <Name>Pearl necklace</Name>
     <category>necklace</category>
     <Price>800</Price>
-    <Amount>20</Amount>
+    <Amount>19</Amount>
   </Product>
   <Product>
     <Id>105</Id>
     <Name>Link bracelet</Name>
     <category>bracelet</category>
     <Price>500.5</Price>
-    <Amount>30</Amount>
+    <Amount>29</Amount>
   </Product>
   <Product>
     <Id>106</Id>
@@ -69,5 +62,19 @@
     <category>necklace</category>
     <Price>800</Price>
     <Amount>20</Amount>
+  </Product>
+  <Product>
+    <Id>110</Id>
+    <Name>שש</Name>
+    <category>bracelet</category>
+    <Price>33</Price>
+    <Amount>22</Amount>
+  </Product>
+  <Product>
+    <Id>111</Id>
+    <Name>שרשרת</Name>
+    <category>ring</category>
+    <Price>100</Price>
+    <Amount>2</Amount>
   </Product>
 </ArrayOfProduct>

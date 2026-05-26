@@ -1,0 +1,97 @@
+﻿using BlApi;
+using System;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace UI
+{
+    public partial class ProductPage : Form
+    {
+        private readonly IBl bl = Factory.Get();
+
+        public ProductPage()
+        {
+            InitializeComponent();
+            LoadProducts();
+        }
+
+        private void LoadProducts()
+        {
+            try
+            {
+                ProductList.DataSource = bl.Product.ReadAll();
+            }
+            catch (Exception ex)
+            {
+                Utils.Log(ex);
+                MessageBox.Show("Error loading products: " + ex.Message);
+            }
+        }
+
+        private void ReadBT_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (ProductList.SelectedRows.Count > 0)
+                {
+                    var product = ProductList.SelectedRows[0].DataBoundItem as BO.Product;
+                    MessageBox.Show(product?.ToString() ?? "Selected product is null");
+                }
+            }
+            catch (Exception ex) { Utils.Log(ex); MessageBox.Show("Error reading product: " + ex.Message); }
+        }
+
+        private void ReadAllBT_Click(object sender, EventArgs e) { try { LoadProducts(); } catch (Exception ex) { Utils.Log(ex); MessageBox.Show(ex.Message); } }
+
+        private void CreateBT_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                MessageBox.Show("Add-product UI not implemented.");
+            }
+            catch (Exception ex) { Utils.Log(ex); MessageBox.Show("Error creating product: " + ex.Message); }
+        }
+
+        private void UpdateBT_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (ProductList.SelectedRows.Count > 0)
+                {
+                    MessageBox.Show("Update-product UI not implemented.");
+                }
+            }
+            catch (Exception ex) { Utils.Log(ex); MessageBox.Show("Error updating product: " + ex.Message); }
+        }
+
+        private void DeleteBT_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (ProductList.SelectedRows.Count > 0)
+                {
+                    var product = ProductList.SelectedRows[0].DataBoundItem as BO.Product;
+                    if (product != null)
+                    {
+                        bl.Product.Delete(product.Id);
+                        LoadProducts();
+                    }
+                }
+            }
+            catch (Exception ex) { Utils.Log(ex); MessageBox.Show("Error deleting product: " + ex.Message); }
+        }
+
+        private void ProductFilterBT_Click(object sender, EventArgs e) { try { FilterTB.Focus(); } catch (Exception ex) { Utils.Log(ex); MessageBox.Show(ex.Message); } }
+
+        private void FilterTB_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                var filter = FilterTB.Text.ToLower();
+                var all = bl.Product.ReadAll();
+                ProductList.DataSource = all.Where(p => p.Name?.ToLower().Contains(filter) == true).ToList();
+            }
+            catch (Exception ex) { Utils.Log(ex); MessageBox.Show("Filter error: " + ex.Message); }
+        }
+    }
+}

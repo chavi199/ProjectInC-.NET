@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfSale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Sale>
-    <Id>1</Id>
-    <ProductId>100</ProductId>
-    <RequiredQuantity>2</RequiredQuantity>
-    <PriceAfterDiscount>300</PriceAfterDiscount>
+    <Id>10</Id>
+    <ProductId>104</ProductId>
+    <RequiredQuantity>4</RequiredQuantity>
+    <PriceAfterDiscount>860</PriceAfterDiscount>
     <IsForClubMemberOnly>true</IsForClubMemberOnly>
-    <StartDate>2026-05-18T21:42:31.878471+03:00</StartDate>
-    <EndDate>2026-01-30T00:00:00</EndDate>
+    <StartDate>2026-05-18T21:42:57.6993504+03:00</StartDate>
+    <EndDate>2026-04-09T00:00:00</EndDate>
   </Sale>
   <Sale>
     <Id>2</Id>
     <ProductId>101</ProductId>
     <RequiredQuantity>3</RequiredQuantity>
-    <PriceAfterDiscount>470</PriceAfterDiscount>
+    <PriceAfterDiscount>550</PriceAfterDiscount>
     <IsForClubMemberOnly>true</IsForClubMemberOnly>
     <StartDate>2026-05-18T21:42:32.1045789+03:00</StartDate>
     <EndDate>2026-02-12T00:00:00</EndDate>
@@ -37,17 +37,8 @@
     <EndDate>2026-01-30T00:00:00</EndDate>
   </Sale>
   <Sale>
-    <Id>5</Id>
-    <ProductId>104</ProductId>
-    <RequiredQuantity>4</RequiredQuantity>
-    <PriceAfterDiscount>860</PriceAfterDiscount>
-    <IsForClubMemberOnly>true</IsForClubMemberOnly>
-    <StartDate>2026-05-18T21:42:32.218387+03:00</StartDate>
-    <EndDate>2026-04-09T00:00:00</EndDate>
-  </Sale>
-  <Sale>
     <Id>6</Id>
-    <ProductId>100</ProductId>
+    <ProductId>150</ProductId>
     <RequiredQuantity>2</RequiredQuantity>
     <PriceAfterDiscount>300</PriceAfterDiscount>
     <IsForClubMemberOnly>true</IsForClubMemberOnly>
@@ -55,9 +46,18 @@
     <EndDate>2026-01-30T00:00:00</EndDate>
   </Sale>
   <Sale>
+    <Id>13</Id>
+    <ProductId>2</ProductId>
+    <RequiredQuantity>100</RequiredQuantity>
+    <PriceAfterDiscount>22</PriceAfterDiscount>
+    <IsForClubMemberOnly>true</IsForClubMemberOnly>
+    <StartDate>2026-05-19T16:12:00.7977342+03:00</StartDate>
+    <EndDate>2026-05-19T16:12:00.7956393+03:00</EndDate>
+  </Sale>
+  <Sale>
     <Id>7</Id>
-    <ProductId>101</ProductId>
-    <RequiredQuantity>3</RequiredQuantity>
+    <ProductId>104</ProductId>
+    <RequiredQuantity>8</RequiredQuantity>
     <PriceAfterDiscount>470</PriceAfterDiscount>
     <IsForClubMemberOnly>true</IsForClubMemberOnly>
     <StartDate>2026-05-18T21:42:57.5854967+03:00</StartDate>
@@ -67,27 +67,27 @@
     <Id>8</Id>
     <ProductId>102</ProductId>
     <RequiredQuantity>3</RequiredQuantity>
-    <PriceAfterDiscount>560</PriceAfterDiscount>
+    <PriceAfterDiscount>559</PriceAfterDiscount>
     <IsForClubMemberOnly>true</IsForClubMemberOnly>
     <StartDate>2026-05-18T21:42:57.6190256+03:00</StartDate>
     <EndDate>2026-03-26T00:00:00</EndDate>
   </Sale>
   <Sale>
-    <Id>9</Id>
-    <ProductId>103</ProductId>
-    <RequiredQuantity>2</RequiredQuantity>
-    <PriceAfterDiscount>790</PriceAfterDiscount>
+    <Id>11</Id>
+    <ProductId>101</ProductId>
+    <RequiredQuantity>10</RequiredQuantity>
+    <PriceAfterDiscount>100</PriceAfterDiscount>
     <IsForClubMemberOnly>false</IsForClubMemberOnly>
-    <StartDate>2026-05-18T21:42:57.6607567+03:00</StartDate>
-    <EndDate>2026-01-30T00:00:00</EndDate>
+    <StartDate>2026-05-19T15:36:30.0898759+03:00</StartDate>
+    <EndDate>2026-05-19T15:36:30.0882731+03:00</EndDate>
   </Sale>
   <Sale>
-    <Id>10</Id>
-    <ProductId>104</ProductId>
-    <RequiredQuantity>4</RequiredQuantity>
-    <PriceAfterDiscount>860</PriceAfterDiscount>
+    <Id>9</Id>
+    <ProductId>101</ProductId>
+    <RequiredQuantity>8</RequiredQuantity>
+    <PriceAfterDiscount>790</PriceAfterDiscount>
     <IsForClubMemberOnly>true</IsForClubMemberOnly>
-    <StartDate>2026-05-18T21:42:57.6993504+03:00</StartDate>
-    <EndDate>2026-04-09T00:00:00</EndDate>
+    <StartDate>2026-05-18T21:42:57.6607567+03:00</StartDate>
+    <EndDate>2026-01-30T00:00:00</EndDate>
   </Sale>
 </ArrayOfSale>

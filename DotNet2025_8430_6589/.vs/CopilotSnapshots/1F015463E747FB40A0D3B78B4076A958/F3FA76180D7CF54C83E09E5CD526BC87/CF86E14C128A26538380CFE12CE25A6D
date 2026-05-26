@@ -1,0 +1,142 @@
+﻿using DalApi;
+using DO;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Runtime.InteropServices.Marshalling;
+using System.Text;
+using System.Threading.Tasks;
+using System.Xml.Linq;
+using System.Xml.Serialization;
+
+namespace Dal
+{
+    public class CustomerImplementation : ICustomer
+    {
+        readonly string customerXmlPath = @"..\xml\customers.xml";
+
+        public int Create(Customer item)
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Customer>));
+            List<Customer> customerList = new List<Customer>();
+            using (StreamReader sr = new StreamReader(customerXmlPath))
+            {
+
+                customerList = serializer.Deserialize(sr) as List<Customer>;
+            }
+            if (!customerList.Exists(c => c.Id == item.Id))
+            {
+                customerList.Add(item);
+                using (StreamWriter sw = new StreamWriter(customerXmlPath))
+                {
+                    serializer.Serialize(sw, customerList);
+                }
+            }
+
+            else
+            {
+                throw new DalIdAlreadyExist($"Customer with id:{item.Id} exists");
+            }
+            return item.Id;
+        }
+
+        public void Delete(int id)
+        {
+
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Customer>));
+            List<Customer> customerList = new List<Customer>();
+            using (StreamReader sr = new StreamReader(customerXmlPath))
+            {
+
+                customerList = serializer.Deserialize(sr) as List<Customer>;
+            }
+            Customer customer = customerList.FirstOrDefault(c => c.Id == id);
+            if (customer != null)
+            {
+                customerList.Remove(customer);
+                using (StreamWriter sw = new StreamWriter(customerXmlPath))
+                {
+                    serializer.Serialize(sw, customerList);
+                }
+            }
+            else
+            {
+                throw new DalIdAlreadyExist($"Customer with id:{id} is not exists");
+            }
+        }
+
+        public Customer? Read(int id)
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Customer>));
+            List<Customer> customerList = new List<Customer>();
+            using (StreamReader sr = new StreamReader(customerXmlPath))
+            {
+
+                customerList = serializer.Deserialize(sr) as List<Customer>;
+            }
+            Customer customer = customerList.FirstOrDefault(c => c.Id == id);
+            if (customer != null)
+                return customer;
+            else
+                throw new DalIdAlreadyExist($"Customer with id:{id}is not exists");
+        }
+
+        public Customer? Read(Func<Customer, bool>? filter)
+        {
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Customer>));
+            List<Customer> customerList = new List<Customer>();
+            using (StreamReader sr = new StreamReader(customerXmlPath))
+            {
+
+                customerList = serializer.Deserialize(sr) as List<Customer>;
+            }
+            Customer customer = customerList.FirstOrDefault(filter);
+            if (customer != null)
+                return customer;
+            else
+                throw new DalIdNotExist($"Customer with this filter is not exists");
+        }
+
+        public List<Customer?> ReadAll(Func<Customer, bool>? filter = null)
+        {
+
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Customer>));
+            List<Customer> customerList = new List<Customer>();
+            using (StreamReader sr = new StreamReader(customerXmlPath))
+            {
+
+                customerList = serializer.Deserialize(sr) as List<Customer>;
+            }
+           
+            if (filter != null)
+                return customerList.Where<Customer>(filter).ToList();
+            return customerList;
+           
+        }
+
+        public void Update(Customer item)
+        {
+
+            XmlSerializer serializer = new XmlSerializer(typeof(List<Customer>));
+            List<Customer> customerList = new List<Customer>();
+            using (StreamReader sr = new StreamReader(customerXmlPath))
+            {
+                customerList = serializer.Deserialize(sr) as List<Customer>;
+            }
+            if (!customerList.Exists(c => c.Id == item.Id))
+            {
+                customerList.Remove(customerList.Find(c=>c.Id == item.Id));
+                customerList.Add(item);
+                using (StreamWriter sw = new StreamWriter(customerXmlPath))
+                {
+                    serializer.Serialize(sw, customerList);
+                }
+
+            }
+
+            else
+                throw new DalIdAlreadyExist($"Customer with id:{item.Id} was not found");
+            
+        }
+    }
+}

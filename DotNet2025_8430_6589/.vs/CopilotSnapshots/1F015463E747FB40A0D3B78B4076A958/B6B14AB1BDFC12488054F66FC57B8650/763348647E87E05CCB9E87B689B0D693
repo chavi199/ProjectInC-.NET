@@ -1,0 +1,78 @@
+﻿using BlApi;
+using System;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace UI
+{
+    public partial class CashierOrderForm : Form
+    {
+        private readonly IBl bl = Factory.Get();
+        private BO.Order currentOrder = new();
+
+        public CashierOrderForm()
+        {
+            InitializeComponent();
+            LoadProducts();
+            UpdateOrderSummary();
+        }
+
+        private void LoadProducts()
+        {
+            try
+            {
+                ProductList.DataSource = bl.Product.ReadAll().ToList();
+            }
+            catch { MessageBox.Show("Error loading products"); }
+        }
+
+        private void AddProductBT_Click(object sender, EventArgs e)
+        {
+            // Add product by code or selection
+            if (!string.IsNullOrWhiteSpace(ProductCodeTB.Text) && int.TryParse(ProductCodeTB.Text, out int productId))
+            {
+                try
+                {
+                    var product = bl.Product.Read(productId);
+                    if (product != null)
+                    {
+                        currentOrder.Products.Add(product);
+                        ProductCodeTB.Clear();
+                        UpdateOrderSummary();
+                    }
+                    else
+                        MessageBox.Show("Product not found");
+                }
+                catch { MessageBox.Show("Error adding product"); }
+            }
+            else if (ProductList.SelectedRows.Count > 0)
+            {
+                var product = (BO.Product)ProductList.SelectedRows[0].DataBoundItem;
+                currentOrder.Products.Add(product);
+                UpdateOrderSummary();
+            }
+            else
+                MessageBox.Show("Please enter product code or select from list");
+        }
+
+        private void UpdateOrderSummary()
+        {
+            OrderSummaryList.DataSource = null;
+            OrderSummaryList.DataSource = currentOrder.Products.ToList();
+            decimal total = currentOrder.Products.Sum(p => p.Price);
+            TotalLabel.Text = $"סה\"כ: {total}";
+        }
+
+        private void DoOrderBT_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                bl.Order.DoOrder(currentOrder);
+                MessageBox.Show("Order completed successfully!");
+                currentOrder = new();
+                UpdateOrderSummary();
+            }
+            catch { MessageBox.Show("Error processing order"); }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+﻿using BlApi;
+using System;
+using System.Windows.Forms;
+
+namespace UI
+{
+    public partial class OrderPage : Form
+    {
+        private readonly IBl bl = Factory.Get();
+
+        public OrderPage()
+        {
+            InitializeComponent();
+            // no ReadAll on Order in BL - informative page
+        }
+
+        private void ReadBT_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (OrderList.SelectedRows.Count > 0)
+                {
+                    var order = OrderList.SelectedRows[0].DataBoundItem as BO.Order;
+                    MessageBox.Show(order?.ToString() ?? "No order selected");
+                }
+            }
+            catch (Exception ex) { Utils.Log(ex); MessageBox.Show("Error reading order: " + ex.Message); }
+        }
+
+        private void ReadAllBT_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Orders are managed via Cashier form.");
+        }
+    }
+}

@@ -1,0 +1,73 @@
+﻿// ...existing using statements...
+
+namespace UI
+{
+    public partial class CustomerPage : Form
+    {
+        private readonly IBl bl = Factory.Get();
+
+        public CustomerPage()
+        {
+            InitializeComponent();
+            LoadCustomers();
+        }
+
+        private void LoadCustomers()
+        {
+            try
+            {
+                CustomerList.DataSource = bl.Customer.ReadAll();
+            }
+            catch { MessageBox.Show("Error loading customers"); }
+        }
+
+        private void ReadBT_Click(object sender, EventArgs e)
+        {
+            // Show selected customer details
+            if (CustomerList.SelectedRows.Count > 0)
+            {
+                var customer = (BO.Customer)CustomerList.SelectedRows[0].DataBoundItem;
+                MessageBox.Show(customer.ToString());
+            }
+        }
+
+        private void AddBT_Click(object sender, EventArgs e)
+        {
+            // Open add customer form
+            var addForm = new CustomerEditForm(bl);
+            if (addForm.ShowDialog() == DialogResult.OK)
+                LoadCustomers();
+        }
+
+        private void UpdateBT_Click(object sender, EventArgs e)
+        {
+            // Open update customer form
+            if (CustomerList.SelectedRows.Count > 0)
+            {
+                var customer = (BO.Customer)CustomerList.SelectedRows[0].DataBoundItem;
+                var editForm = new CustomerEditForm(bl, customer);
+                if (editForm.ShowDialog() == DialogResult.OK)
+                    LoadCustomers();
+            }
+        }
+
+        private void DeleteBT_Click(object sender, EventArgs e)
+        {
+            // Delete selected customer
+            if (CustomerList.SelectedRows.Count > 0)
+            {
+                var customer = (BO.Customer)CustomerList.SelectedRows[0].DataBoundItem;
+                bl.Customer.Delete(customer.Id);
+                LoadCustomers();
+            }
+        }
+
+        private void FilterTB_TextChanged(object sender, EventArgs e)
+        {
+            // Simple filter by name
+            var filter = FilterTB.Text.ToLower();
+            CustomerList.DataSource = bl.Customer.ReadAll()
+                .Where(c => c.Name.ToLower().Contains(filter)).ToList();
+        }
+    }
+}

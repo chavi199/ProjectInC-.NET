@@ -1,0 +1,76 @@
+﻿using BlApi;
+using System;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace UI
+{
+    public partial class ProductPage : Form
+    {
+        private readonly IBl bl = Factory.Get();
+
+        public ProductPage()
+        {
+            InitializeComponent();
+            LoadProducts();
+        }
+
+        private void LoadProducts()
+        {
+            try
+            {
+                ProductList.DataSource = bl.Product.ReadAll();
+            }
+            catch { MessageBox.Show("Error loading products"); }
+        }
+
+        private void ReadBT_Click(object sender, EventArgs e)
+        {
+            if (ProductList.SelectedRows.Count > 0)
+            {
+                var product = (BO.Product)ProductList.SelectedRows[0].DataBoundItem;
+                MessageBox.Show(product.ToString());
+            }
+        }
+
+        private void ReadAllBT_Click(object sender, EventArgs e)
+        {
+            LoadProducts();
+        }
+
+        private void CreateBT_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Add Product feature not yet implemented");
+        }
+
+        private void UpdateBT_Click(object sender, EventArgs e)
+        {
+            if (ProductList.SelectedRows.Count > 0)
+            {
+                MessageBox.Show("Update Product feature not yet implemented");
+            }
+        }
+
+        private void DeleteBT_Click(object sender, EventArgs e)
+        {
+            if (ProductList.SelectedRows.Count > 0)
+            {
+                var product = (BO.Product)ProductList.SelectedRows[0].DataBoundItem;
+                bl.Product.Delete(product.Id);
+                LoadProducts();
+            }
+        }
+
+        private void ProductFilterBT_Click(object sender, EventArgs e)
+        {
+            // Filter by name in textbox
+        }
+
+        private void FilterTB_TextChanged(object sender, EventArgs e)
+        {
+            var filter = FilterTB.Text.ToLower();
+            var all = bl.Product.ReadAll();
+            ProductList.DataSource = all.Where(p => p.Name.ToLower().Contains(filter)).ToList();
+        }
+    }
+}

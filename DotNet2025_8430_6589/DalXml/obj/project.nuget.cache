@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "I8XcR60vKLw=",
+  "dgSpecHash": "n+3+wzK2qng=",
   "success": true,
-  "projectFilePath": "E:\\שלב 8 באמצעעע\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalXml\\DalXml.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\1\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.25\\microsoft.windowsdesktop.app.ref.8.0.25.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\user1\\Desktop\\STUDIES\\C# מתקדם\\מגיט תחילת הUI בודקת מה טוב שם\\ProjectInC-.NET\\DotNet2025_8430_6589\\DalXml\\DalXml.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

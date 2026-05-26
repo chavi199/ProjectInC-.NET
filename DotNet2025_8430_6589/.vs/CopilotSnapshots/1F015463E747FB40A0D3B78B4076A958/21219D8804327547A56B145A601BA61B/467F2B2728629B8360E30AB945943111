@@ -1,0 +1,28 @@
+﻿namespace UI
+{
+    partial class OrderPage
+    {
+        private System.ComponentModel.IContainer components = null;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // OrderPage
+            // 
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Name = "OrderPage";
+            this.Text = "Order Page";
+            this.ResumeLayout(false);
+        }
+    }
+}

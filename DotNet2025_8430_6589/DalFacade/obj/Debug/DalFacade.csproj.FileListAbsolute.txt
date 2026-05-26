@@ -22,3 +22,15 @@ E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\De
 E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\refint\DalFacade.dll
 E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\DalFacade.pdb
 E:\שלב 8 באמצעעע\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\ref\DalFacade.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalFacade.deps.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalFacade.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\bin\DalFacade.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\DalFacade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\DalFacade.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\DalFacade.AssemblyInfo.cs
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\DalFacade.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\DalFacade.sourcelink.json
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\DalFacade.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\refint\DalFacade.dll
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\DalFacade.pdb
+C:\Users\user1\Desktop\STUDIES\C# מתקדם\מגיט תחילת הUI בודקת מה טוב שם\ProjectInC-.NET\DotNet2025_8430_6589\DalFacade\obj\Debug\ref\DalFacade.dll

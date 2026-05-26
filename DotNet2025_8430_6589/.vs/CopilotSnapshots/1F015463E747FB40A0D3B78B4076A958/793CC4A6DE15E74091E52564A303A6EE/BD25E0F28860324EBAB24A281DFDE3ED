@@ -1,0 +1,56 @@
+﻿using BlApi;
+using System;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace UI
+{
+    public partial class CashierOrderForm : Form
+    {
+        private readonly IBl bl = Factory.Get();
+        private BO.Order currentOrder = new();
+
+        public CashierOrderForm()
+        {
+            InitializeComponent();
+            ProductList.DataSource = bl.Product.ReadAll().ToList();
+            UpdateOrderSummary();
+        }
+
+        private void AddProductBT_Click(object sender, EventArgs e)
+        {
+            // Add product by code or selection
+            int productId;
+            if (int.TryParse(ProductCodeTB.Text, out productId))
+            {
+                var product = bl.Product.Read(productId);
+                if (product != null)
+                {
+                    currentOrder.Products.Add(product);
+                    UpdateOrderSummary();
+                }
+            }
+            else if (ProductList.SelectedRows.Count > 0)
+            {
+                var product = (BO.Product)ProductList.SelectedRows[0].DataBoundItem;
+                currentOrder.Products.Add(product);
+                UpdateOrderSummary();
+            }
+        }
+
+        private void UpdateOrderSummary()
+        {
+            OrderSummaryList.DataSource = null;
+            OrderSummaryList.DataSource = currentOrder.Products.ToList();
+            TotalLabel.Text = $"Total: {currentOrder.Products.Sum(p => p.Price):C}";
+        }
+
+        private void DoOrderBT_Click(object sender, EventArgs e)
+        {
+            bl.Order.DoOrder(currentOrder);
+            MessageBox.Show("Order completed!");
+            currentOrder = new();
+            UpdateOrderSummary();
+        }
+    }
+}

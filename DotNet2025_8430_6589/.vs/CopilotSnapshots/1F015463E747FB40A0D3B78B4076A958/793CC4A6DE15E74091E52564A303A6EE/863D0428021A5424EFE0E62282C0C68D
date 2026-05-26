@@ -1,0 +1,22 @@
+﻿// ...existing using statements...
+
+namespace UI
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void ManagerBT_Click(object sender, EventArgs e)
+        {
+            new ManagerMenu().ShowDialog();
+        }
+
+        private void CashierBT_Click(object sender, EventArgs e)
+        {
+            new CashierOrderForm().ShowDialog();
+        }
+    }
+}

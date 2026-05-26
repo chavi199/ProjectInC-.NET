@@ -1,0 +1,60 @@
+﻿namespace UI
+{
+    partial class CustomerEditForm
+    {
+        private System.ComponentModel.IContainer components = null;
+        private System.Windows.Forms.TextBox IdTB;
+        private System.Windows.Forms.TextBox NameTB;
+        private System.Windows.Forms.Button SaveBT;
+        private System.Windows.Forms.Button CancelBT;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null)) components.Dispose();
+            base.Dispose(disposing);
+        }
+
+        private void InitializeComponent()
+        {
+            IdTB = new System.Windows.Forms.TextBox();
+            NameTB = new System.Windows.Forms.TextBox();
+            SaveBT = new System.Windows.Forms.Button();
+            CancelBT = new System.Windows.Forms.Button();
+            SuspendLayout();
+            // IdTB
+            IdTB.Location = new System.Drawing.Point(20, 20);
+            IdTB.Name = "IdTB";
+            IdTB.Size = new System.Drawing.Size(200, 27);
+            IdTB.PlaceholderText = "Id (leave 0 to auto)";
+            // NameTB
+            NameTB.Location = new System.Drawing.Point(20, 60);
+            NameTB.Name = "NameTB";
+            NameTB.Size = new System.Drawing.Size(200, 27);
+            NameTB.PlaceholderText = "Name";
+            // SaveBT
+            SaveBT.Location = new System.Drawing.Point(20, 100);
+            SaveBT.Name = "SaveBT";
+            SaveBT.Size = new System.Drawing.Size(90, 30);
+            SaveBT.Text = "Save";
+            SaveBT.UseVisualStyleBackColor = true;
+            SaveBT.Click += SaveBT_Click;
+            // CancelBT
+            CancelBT.Location = new System.Drawing.Point(130, 100);
+            CancelBT.Name = "CancelBT";
+            CancelBT.Size = new System.Drawing.Size(90, 30);
+            CancelBT.Text = "Cancel";
+            CancelBT.UseVisualStyleBackColor = true;
+            CancelBT.Click += CancelBT_Click;
+            // Form
+            ClientSize = new System.Drawing.Size(250, 150);
+            Controls.Add(CancelBT);
+            Controls.Add(SaveBT);
+            Controls.Add(NameTB);
+            Controls.Add(IdTB);
+            Name = "CustomerEditForm";
+            Text = "Customer";
+            ResumeLayout(false);
+            PerformLayout();
+        }
+    }
+}

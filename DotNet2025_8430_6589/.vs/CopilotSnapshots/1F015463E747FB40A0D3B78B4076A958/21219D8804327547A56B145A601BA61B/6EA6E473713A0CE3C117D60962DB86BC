@@ -1,0 +1,28 @@
+﻿namespace UI
+{
+    partial class CashierOrderForm
+    {
+        private System.ComponentModel.IContainer components = null;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        private void InitializeComponent()
+        {
+            this.SuspendLayout();
+            // 
+            // CashierOrderForm
+            // 
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Name = "CashierOrderForm";
+            this.Text = "Cashier Order Form";
+            this.ResumeLayout(false);
+        }
+    }
+}

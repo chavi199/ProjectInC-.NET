@@ -1,0 +1,72 @@
+﻿namespace UI
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            ManagerBT = new Button();
+            EmployeeBT = new Button();
+            SuspendLayout();
+            // 
+            // ManagerBT
+            // 
+            ManagerBT.Location = new Point(403, 161);
+            ManagerBT.Name = "ManagerBT";
+            ManagerBT.Size = new Size(146, 102);
+            ManagerBT.TabIndex = 0;
+            ManagerBT.Text = "מנהל";
+            ManagerBT.UseVisualStyleBackColor = true;
+            ManagerBT.Click += button1_Click;
+            // 
+            // EmployeeBT
+            // 
+            EmployeeBT.Location = new Point(225, 161);
+            EmployeeBT.Name = "EmployeeBT";
+            EmployeeBT.Size = new Size(156, 102);
+            EmployeeBT.TabIndex = 1;
+            EmployeeBT.Text = "קופאי";
+            EmployeeBT.UseVisualStyleBackColor = true;
+            EmployeeBT.Click += EmployeeBT_Click;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(EmployeeBT);
+            Controls.Add(ManagerBT);
+            Name = "Form1";
+            Text = "Main Form";
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private Button ManagerBT;
+        private Button EmployeeBT;
+    }
+}

@@ -1,0 +1,40 @@
+﻿using BlApi;
+using System;
+using System.Windows.Forms;
+
+namespace UI
+{
+    public partial class OrderPage : Form
+    {
+        private readonly IBl bl = Factory.Get();
+
+        public OrderPage()
+        {
+            InitializeComponent();
+            LoadOrders();
+        }
+
+        private void LoadOrders()
+        {
+            try
+            {
+                OrderList.DataSource = bl.Order.ReadAll();
+            }
+            catch { MessageBox.Show("Error loading orders"); }
+        }
+
+        private void ReadBT_Click(object sender, EventArgs e)
+        {
+            if (OrderList.SelectedRows.Count > 0)
+            {
+                var order = (BO.Order)OrderList.SelectedRows[0].DataBoundItem;
+                MessageBox.Show(order.ToString());
+            }
+        }
+
+        private void ReadAllBT_Click(object sender, EventArgs e)
+        {
+            LoadOrders();
+        }
+    }
+}

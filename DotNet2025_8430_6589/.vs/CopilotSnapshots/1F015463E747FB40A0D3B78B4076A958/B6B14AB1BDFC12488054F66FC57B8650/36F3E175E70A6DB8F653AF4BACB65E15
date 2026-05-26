@@ -1,0 +1,76 @@
+﻿using BlApi;
+using System;
+using System.Linq;
+using System.Windows.Forms;
+
+namespace UI
+{
+    public partial class SalePage : Form
+    {
+        private readonly IBl bl = Factory.Get();
+
+        public SalePage()
+        {
+            InitializeComponent();
+            LoadSales();
+        }
+
+        private void LoadSales()
+        {
+            try
+            {
+                SaleList.DataSource = bl.Sale.ReadAll();
+            }
+            catch { MessageBox.Show("Error loading sales"); }
+        }
+
+        private void ReadBT_Click(object sender, EventArgs e)
+        {
+            if (SaleList.SelectedRows.Count > 0)
+            {
+                var sale = (BO.Sale)SaleList.SelectedRows[0].DataBoundItem;
+                MessageBox.Show(sale.ToString());
+            }
+        }
+
+        private void ReadAllBT_Click(object sender, EventArgs e)
+        {
+            LoadSales();
+        }
+
+        private void CreateBT_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Add Sale feature not yet implemented");
+        }
+
+        private void UpdateBT_Click(object sender, EventArgs e)
+        {
+            if (SaleList.SelectedRows.Count > 0)
+            {
+                MessageBox.Show("Update Sale feature not yet implemented");
+            }
+        }
+
+        private void DeleteBT_Click(object sender, EventArgs e)
+        {
+            if (SaleList.SelectedRows.Count > 0)
+            {
+                var sale = (BO.Sale)SaleList.SelectedRows[0].DataBoundItem;
+                bl.Sale.Delete(sale.Id);
+                LoadSales();
+            }
+        }
+
+        private void SaleFilterBT_Click(object sender, EventArgs e)
+        {
+            // Filter by name in textbox
+        }
+
+        private void FilterTB_TextChanged(object sender, EventArgs e)
+        {
+            var filter = FilterTB.Text.ToLower();
+            var all = bl.Sale.ReadAll();
+            SaleList.DataSource = all.Where(s => s.Name.ToLower().Contains(filter)).ToList();
+        }
+    }
+}
